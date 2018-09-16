@@ -58,58 +58,87 @@ function createBookmarkElement(bookmark) {
 }
 
 function createMozContainer(bookmark) {
+    let wrapper = document.createElement('div');
+    wrapper.setAttribute('role', 'tablist');
+    wrapper.setAttribute('aria-multiselectable', 'true');
+
     let card = document.createElement('div');
     card.className += ' card';
 
-    let elem = document.createElement('div');
-    elem.className += ' card-body';
+    let cardHeader = document.createElement('div');
+    cardHeader.className += ' card-header';
+    cardHeader.setAttribute('role', 'tab');
+    cardHeader.setAttribute('id', bookmark.guid);
+
     if (bookmark.title) {
-        let card_title = document.createElement('div');
-        card_title.className += ' card-title';
-        card_title.textContent = bookmark.title;
-        card.appendChild(card_title);
+        let cardTitle = document.createElement('h3');
+        cardTitle.className += ' card-title';
+
+        let cardLink = document.createElement('a');
+        cardLink.textContent = bookmark.title;
+        cardLink.setAttribute('data-toggle', 'collapse');
+        const dataParent = '#' + bookmark.guid;
+        cardLink.setAttribute('href', dataParent);
+        cardLink.setAttribute('aria-expanded', 'true');
+
+        cardTitle.appendChild(cardLink);
+        cardHeader.appendChild(cardTitle);
     }
+
+    card.appendChild(cardHeader);
+
     if (bookmark.children) {
         let list = document.createElement('ul');
         list.className += bookmark.title;
+        list.className += ' card-body';
         list.className += ' list-group';
         bookmark.children.forEach(child => {
             list.appendChild(createBookmarkElement(child));
-            elem.appendChild(list);
+            card.appendChild(list);
         });
     }
-    card.appendChild(elem);
     return card;
 }
 
 function createMozPlace(bookmark) {
     let elem = document.createElement('li');
     elem.className += ' list-group-item';
+    elem.appendChild(createListItemIcon(bookmark));
+    elem.appendChild(createListItemSpan(bookmark));
+    elem.appendChild(createOpenLinkButton(bookmark));
+    elem.appendChild(createCopyLinkButton(bookmark));
+    return elem;
+}
 
-    /*
+function createListItemIcon(bookmark) {
+    let bookmarkIcon = document.createElement('img');
     if (bookmark.iconuri) {
-        let bookmarkIcon = document.createElement('img');
         bookmarkIcon.className += ' moz-place-ico';
         bookmarkIcon.src = bookmark.iconuri;
-        elem.appendChild(bookmarkIcon);
     }
-    */
+    return bookmarkIcon;
+}
 
+function createListItemSpan(bookmark) {
     let spanElem = document.createElement('span');
     spanElem.className += ' h5';
     if (bookmark.title) {
         let bookmarkTitle = document.createTextNode(bookmark.title);
         spanElem.appendChild(bookmarkTitle);
     }
-    elem.appendChild(spanElem);
+    return spanElem;
+}
 
+function createOpenLinkButton(bookmark) {
     let openLinkBtn = document.createElement('a');
     openLinkBtn.href = bookmark.uri;
     openLinkBtn.textContent = 'open';
     openLinkBtn.className += ' btn btn-sm btn-outline-primary mx-2';
     openLinkBtn.setAttribute('target', '_blank');
-    elem.appendChild(openLinkBtn);
+    return openLinkBtn;
+}
 
+function createCopyLinkButton(bookmark) {
     let copyLinkBtn = document.createElement('button');
     copyLinkBtn.textContent = 'copy';
     copyLinkBtn.className += ' btn btn-sm btn-outline-primary';
@@ -117,9 +146,7 @@ function createMozPlace(bookmark) {
         const adrURI = bookmark.uri;
         copyTextToClipboard(adrURI);
     });
-    elem.appendChild(copyLinkBtn);
-
-    return elem;
+    return copyLinkBtn;
 }
 
 function copyTextToClipboard(text) {
