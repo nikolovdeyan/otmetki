@@ -58,9 +58,21 @@ function createBookmarkElement(bookmark) {
 }
 
 function createMozContainer(bookmark) {
-    let wrapper = document.createElement('div');
-    wrapper.setAttribute('role', 'tablist');
-    wrapper.setAttribute('aria-multiselectable', 'true');
+    let bmContainer = document.createElement('div');
+    bmContainer.setAttribute('id', 'bm-container');
+    let elem = collapsableCardWrapper(bmContainer, bookmark);
+
+    return elem;
+}
+
+function collapsableCardWrapper(bmContainer, bookmark) {
+    const bmContainerGUID = bookmark.guid;
+    const parentGUID = bmContainerGUID + '-p';
+    const childGUID = bmContainerGUID + '-c';
+
+    bmContainer.setAttribute('id', bmContainerGUID);
+    bmContainer.setAttribute('role', 'tablist');
+    bmContainer.setAttribute('aria-multiselectable', 'true');
 
     let card = document.createElement('div');
     card.className += ' card';
@@ -68,18 +80,20 @@ function createMozContainer(bookmark) {
     let cardHeader = document.createElement('div');
     cardHeader.className += ' card-header';
     cardHeader.setAttribute('role', 'tab');
-    cardHeader.setAttribute('id', bookmark.guid);
+    cardHeader.setAttribute('id', parentGUID);
 
     if (bookmark.title) {
         let cardTitle = document.createElement('h3');
         cardTitle.className += ' card-title';
 
         let cardLink = document.createElement('a');
-        cardLink.textContent = bookmark.title;
         cardLink.setAttribute('data-toggle', 'collapse');
-        const dataParent = '#' + bookmark.guid;
-        cardLink.setAttribute('href', dataParent);
+        cardLink.setAttribute('data-parent', bmContainerGUID);
+        const childGUIDLink = '#' + childGUID;
+        cardLink.setAttribute('href', childGUIDLink);
         cardLink.setAttribute('aria-expanded', 'true');
+        cardLink.setAttribute('aria-controls', childGUID);
+        cardLink.textContent = bookmark.title;
 
         cardTitle.appendChild(cardLink);
         cardHeader.appendChild(cardTitle);
@@ -88,16 +102,27 @@ function createMozContainer(bookmark) {
     card.appendChild(cardHeader);
 
     if (bookmark.children) {
-        let list = document.createElement('ul');
-        list.className += bookmark.title;
-        list.className += ' card-body';
-        list.className += ' list-group';
+        let collapseWrapper = document.createElement('div');
+        collapseWrapper.className += ' collapse show';
+        collapseWrapper.setAttribute('id', childGUID);
+        collapseWrapper.setAttribute('role', 'tabcard');
+        collapseWrapper.setAttribute('aria-labelledby', parentGUID);
+
+        let cardBody = document.createElement('div');
+        cardBody.className += ' card-body';
+
+        let bmChildren = document.createElement('ul');
+        bmChildren.className += ' list-group';
         bookmark.children.forEach(child => {
-            list.appendChild(createBookmarkElement(child));
-            card.appendChild(list);
+            bmChildren.appendChild(createBookmarkElement(child));
         });
+        cardBody.appendChild(bmChildren);
+        collapseWrapper.appendChild(cardBody);
+        card.appendChild(collapseWrapper);
     }
-    return card;
+
+    bmContainer.appendChild(card);
+    return bmContainer;
 }
 
 function createMozPlace(bookmark) {
