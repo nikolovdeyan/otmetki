@@ -83,8 +83,9 @@ function collapsableCardWrapper(bmContainer, bookmark) {
     cardHeader.setAttribute('id', parentGUID);
 
     if (bookmark.title) {
-        let cardTitle = document.createElement('h3');
+        let cardTitle = document.createElement('h5');
         cardTitle.className += ' card-title';
+        cardTitle.className += ' pt-2';
 
         let cardLink = document.createElement('a');
         cardLink.setAttribute('data-toggle', 'collapse');
@@ -103,7 +104,7 @@ function collapsableCardWrapper(bmContainer, bookmark) {
 
     if (bookmark.children) {
         let collapseWrapper = document.createElement('div');
-        collapseWrapper.className += ' collapse show';
+        collapseWrapper.className += ' collapse hide';
         collapseWrapper.setAttribute('id', childGUID);
         collapseWrapper.setAttribute('role', 'tabcard');
         collapseWrapper.setAttribute('aria-labelledby', parentGUID);
@@ -130,15 +131,14 @@ function createMozPlace(bookmark) {
     elem.className += ' list-group-item';
     elem.appendChild(createListItemIcon(bookmark));
     elem.appendChild(createListItemSpan(bookmark));
-    elem.appendChild(createOpenLinkButton(bookmark));
-    elem.appendChild(createCopyLinkButton(bookmark));
+    elem.appendChild(createListItemButtons(bookmark));
     return elem;
 }
 
 function createListItemIcon(bookmark) {
     let bookmarkIcon = document.createElement('img');
     if (bookmark.iconuri) {
-        bookmarkIcon.className += ' moz-place-ico';
+        bookmarkIcon.className += ' moz-place-ico mr-2 img-thumbnail';
         bookmarkIcon.src = bookmark.iconuri;
     }
     return bookmarkIcon;
@@ -146,7 +146,8 @@ function createListItemIcon(bookmark) {
 
 function createListItemSpan(bookmark) {
     let spanElem = document.createElement('span');
-    spanElem.className += ' h5';
+    spanElem.className += ' h6';
+    spanElem.className += ' align-middle';
     if (bookmark.title) {
         let bookmarkTitle = document.createTextNode(bookmark.title);
         spanElem.appendChild(bookmarkTitle);
@@ -154,11 +155,19 @@ function createListItemSpan(bookmark) {
     return spanElem;
 }
 
+function createListItemButtons(bookmark) {
+    let btnGroupElem = document.createElement('div');
+    btnGroupElem.className += ' btn-group float-right pt-1';
+    btnGroupElem.appendChild(createCopyLinkButton(bookmark));
+    btnGroupElem.appendChild(createOpenLinkButton(bookmark));
+    return btnGroupElem;
+}
+
 function createOpenLinkButton(bookmark) {
     let openLinkBtn = document.createElement('a');
     openLinkBtn.href = bookmark.uri;
     openLinkBtn.textContent = 'open';
-    openLinkBtn.className += ' btn btn-sm btn-outline-primary mx-2';
+    openLinkBtn.className += ' btn btn-sm btn-primary';
     openLinkBtn.setAttribute('target', '_blank');
     return openLinkBtn;
 }
