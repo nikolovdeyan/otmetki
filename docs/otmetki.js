@@ -90,6 +90,9 @@ function collapsableCardWrapper(bmContainer, bookmark) {
         let cardLink = document.createElement('a');
         cardLink.setAttribute('data-toggle', 'collapse');
         cardLink.setAttribute('data-parent', bmContainerGUID);
+        if (!bookmark.children) {
+            cardLink.className += ' text-muted';
+        }
         const childGUIDLink = '#' + childGUID;
         cardLink.setAttribute('href', childGUIDLink);
         cardLink.setAttribute('aria-expanded', 'true');
