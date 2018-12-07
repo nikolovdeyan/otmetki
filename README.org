@@ -1,0 +1,3 @@
+* otmetki
+
+Personal web browser bookmarks rendered in GitHub Pages
