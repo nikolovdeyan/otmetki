@@ -243,13 +243,3 @@ function copyTextToClipboard(text) {
 
     document.body.removeChild(textArea);
 }
-
-$(".navbar-search").on("keyup", function () {
-    var v = $(this).val();
-    $(".lead").removeClass("lead");
-    $("p").each(function () {
-        if (v != "" && $(this).text().search(v) != -1) {
-            $(this).addClass("lead");
-        }
-    });
-});

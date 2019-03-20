@@ -1,8 +1,8 @@
-* otmetki
+* Otmetki
 
-#### Personal web browser bookmarks rendered in GitHub Pages
+*** Personal web browser bookmarks rendered in GitHub Pages
 
-+ Click [[https://nikolovdeyan.github.io/otmetki/][here]] to view the bookmarks rendered as HTML.
-+ To export bookmarks in Firefox:
++ Click [[https://nikolovdeyan.github.io/otmetki/][here]] to open Otmetki.
++ To export bookmarks in Firefox you need to:
   - open the Bookmark pane (~Ctrl+Shift+O~)
   - select ~Export and Backup~ and export the bookmarks in the project directory as ~bookmarks.json~
