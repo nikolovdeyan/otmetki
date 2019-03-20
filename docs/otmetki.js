@@ -26,7 +26,7 @@ fetch(bookmarksURL)
 
 function populateHeader() {
     let heading = document.createElement('h2');
-    heading.textContent = 'Bookmarks';
+    heading.textContent = 'Otmetki!';
     header.appendChild(heading);
 }
 
@@ -140,8 +140,8 @@ function createMozPlace(bookmark) {
 
 function createListItemIcon(bookmark) {
     let bookmarkIcon = document.createElement('img');
+    bookmarkIcon.className += ' moz-place-ico mr-2 img-thumbnail';
     if (bookmark.iconuri) {
-        bookmarkIcon.className += ' moz-place-ico mr-2 img-thumbnail';
         bookmarkIcon.src = bookmark.iconuri;
     }
     return bookmarkIcon;
@@ -243,3 +243,13 @@ function copyTextToClipboard(text) {
 
     document.body.removeChild(textArea);
 }
+
+$(".navbar-search").on("keyup", function () {
+    var v = $(this).val();
+    $(".lead").removeClass("lead");
+    $("p").each(function () {
+        if (v != "" && $(this).text().search(v) != -1) {
+            $(this).addClass("lead");
+        }
+    });
+});
