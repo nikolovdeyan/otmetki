@@ -5,4 +5,4 @@
 + Click [[https://nikolovdeyan.github.io/otmetki/][here]] to open Otmetki.
 + To export bookmarks in Firefox you need to:
   - open the Bookmark pane (~Ctrl+Shift+O~)
-  - select ~Export and Backup~ and export the bookmarks in the project directory as ~bookmarks.json~
+  - select ~Import and Backup~ -> ~Backup...~ and export the bookmarks in the project directory as ~bookmarks.json~

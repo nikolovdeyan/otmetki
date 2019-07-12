@@ -31,7 +31,7 @@ function populateHeader() {
 }
 
 function populateBookmarks(bookmarks) {
-    let bmElem = document.createElement('h3');
+    let bmElem = document.createElement('div');
     bookmarks.forEach(bookmark => {
         let bmItem = createBookmarkElement(bookmark);
         bmElem.appendChild(bmItem);
