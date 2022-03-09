@@ -1,0 +1,53 @@
+#+STARTUP: overview
+
+#+SETUPFILE: "~/Dropbox/org/resources/org-html-themes/org/theme-bigblow.setup"
+
+#+TITLE:  Otmetki
+#+SUBTITLE:
+
+#+OPTIONS:   H:5 num:nil toc:2 p:t
+
+
+
+* Otmetki
+** Data Analytics & Data Visualization
+*** Tools
+**** keshif.me
+:PROPERTIES:
+:guid:     Q4QSxQXIC4Um
+:dateAdded: 1521495209722000
+:lastModified: 1562958123583000
+:iconuri: "https://keshif.me/gallery/img/favicon.png"
+:uri: "https://keshif.me/demo/VisTools"
+:END: 
+Data visualization tools
+**** Visualising Data :: Resource Catalogue
+:PROPERTIES:
+:guid:     8hsBhoQiVy-c
+:dateAdded: 1544129108979000
+:lastModified: 1562956050820000
+:iconuri:  ""
+:uri:      "http://www.visualisingdata.com/resources/"
+:END: 
+A comprehensive guide to presenting data
+*** Resources
+**** Wikidata :: Open Source Datasets
+:PROPERTIES:
+:guid:    T58G846ltmFk
+:dateAdded: 1498297371090000
+:lastModified: 1534631932111000
+:iconuri:  "https://www.wikidata.org/static/apple-touch/wikidata.png"
+:uri: "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+:END: 
+Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.\n\nWikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wikisource, and others.
+*** Library
+** Databases
+*** Tools
+*** Resources
+*** Library
+** Design
+*** Tools
+*** Resources
+*** Library
+
+* Unprocessed                                                                   :noexport:
