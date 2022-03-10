@@ -2,52 +2,3507 @@
 
 #+SETUPFILE: "~/Dropbox/org/resources/org-html-themes/org/theme-bigblow.setup"
 
-#+TITLE:  Otmetki
+#+TITLE:  Otmetki 2.0
 #+SUBTITLE:
 
-#+OPTIONS:   H:5 num:nil toc:2 p:t
+#+OPTIONS:   H:4 num:nil toc:2 p:t
 
 
+* Home
 
 * All Things Data
-** Data Analytics & Data Visualisation
+** Data Analytics & Data Presentation
 *** Tools
-**** keshif.me
+**** keshif.me :: Data Visualization Tools
 :PROPERTIES:
-:guid:     Q4QSxQXIC4Um
+:guid: Q4QSxQXIC4Um
 :dateAdded: 1521495209722000
 :lastModified: 1562958123583000
-:iconuri: "https://keshif.me/gallery/img/favicon.png"
-:uri: "https://keshif.me/demo/VisTools"
-:END: 
-Data visualization tools
-**** Visualising Data :: Resource Catalogue
+:iconuri: https://keshif.me/gallery/img/favicon.png
+:uri: https://keshif.me/demo/VisTools
+:END:
+
+**** Visualising Data :: Data Visualization Resource Catalogue
 :PROPERTIES:
-:guid:     8hsBhoQiVy-c
+:guid: 8hsBhoQiVy-c
 :dateAdded: 1544129108979000
 :lastModified: 1562956050820000
-:iconuri:  ""
-:uri:      "http://www.visualisingdata.com/resources/"
-:END: 
-A comprehensive guide to presenting data
-*** Resources
-**** Wikidata :: Open Source Datasets
+:iconuri: null
+:uri: http://www.visualisingdata.com/resources/
+:END:
+
+**** The Data Visualisation Catalogue :: Chart Catalogue
 :PROPERTIES:
-:guid:    T58G846ltmFk
+:guid: BUnBycutHcta
+:dateAdded: 1546147638032000
+:lastModified: 1562956053198000
+:iconuri: null
+:uri: https://datavizcatalogue.com/
+:END:
+
+**** extremepresentation :: Chart Catalogue
+:PROPERTIES:
+:guid: 6Bdmfz5IwS1m
+:dateAdded: 1470338405879000
+:lastModified: 1562956056984000
+:iconuri: null
+:uri: http://extremepresentation.typepad.com/blog/files/choosing_a_good_chart.pdf
+:END:
+
+**** The Python Graph Gallery :: Chart Catalogue for Visualizing Data with Python
+:PROPERTIES:
+:guid: i1kYfTyV5y1w
+:dateAdded: 1562966082010000
+:lastModified: 1562966106789000
+:iconuri: https://python-graph-gallery.com/wp-content/uploads/2017/05/Logo_PGG_light.jpg
+:uri: https://python-graph-gallery.com/
+:END:
+
+**** Andy Kriebel :: Visual Vocabulary. Chart Catalogue
+:PROPERTIES:
+:guid: afN_VDGvw9Iy
+:dateAdded: 1542558499958000
+:lastModified: 1562956060401000
+:iconuri: https://public.tableau.com/s/favicon.ico
+:uri: https://public.tableau.com/profile/andy.kriebel/#!/vizhome/VisualVocabulary/VisualVocabulary
+:END:
+
+**** Mind Map Maker :: A Mind Map Creation Tool
+:PROPERTIES:
+:guid: CU4mq2KgH459
+:dateAdded: 1498233597220000
+:lastModified: 1562958158735000
+:iconuri: https://app.mindmapmaker.org/img/favicon.png
+:uri: http://app.mindmapmaker.org/#
+:END:
+
+**** Timegraphics :: Timeline Graph Designer
+:PROPERTIES:
+:guid: be9EVMsIha9I
+:dateAdded: 1513589943020000
+:lastModified: 1562958192639000
+:iconuri: https://time.graphics/android-chrome-192x192.png?v=7kbn8X5BAk
+:uri: https://time.graphics/
+:END:
+
+**** Idyll :: A Tool for Creating Data-Driven Stories and Explorable Explanations
+:PROPERTIES:
+:guid: 5a_eSVLqIPtu
+:dateAdded: 1531938229170000
+:lastModified: 1562959844233000
+:iconuri: https://idyll-lang.org/static/images/favicon.ico
+:uri: https://idyll-lang.org/
+:END:
+
+**** Hipsum :: Random Text Generator
+:PROPERTIES:
+:guid: PbNlXVw6LK_4
+:dateAdded: 1475062914166000
+:lastModified: 1562958341010000
+:iconuri: null
+:uri: https://hipsum.co/
+:END:
+
+**** Mockaroo :: Random Data Generator
+:PROPERTIES:
+:guid: yFwV_Eru_ZRA
+:dateAdded: 1495029713613000
+:lastModified: 1562958345004000
+:iconuri: https://mockaroo.com/assets/favicon-8d320ac46812befcc8e0c5388550bd14d2105f78bb354728e63dd50d9e345ede.png
+:uri: http://mockaroo.com/
+:END:
+Random Data Generator for CSV / JSON / SQL / Excel 
+
+**** JSONPlaceholder :: JSON REST API for Testing and Prototyping
+:PROPERTIES:
+:guid: 9hFKUTlXiezm
+:dateAdded: 1535281216767000
+:lastModified: 1562958348704000
+:iconuri: null
+:uri: https://jsonplaceholder.typicode.com/
+:END:
+
+**** Diff Checker :: Diff Checker
+:PROPERTIES:
+:guid: 1fN7BThJfKb6
+:dateAdded: 1513607779830000
+:lastModified: 1562958352416000
+:iconuri: null
+:uri: https://www.diffchecker.com/
+:END:
+Diff Checker - Online diff tool to compare text to find the difference between two text files
+
+**** famkruithof.net :: GUID (UUID) Generator
+:PROPERTIES:
+:guid: sHOw9b63rj44
+:dateAdded: 1496045111380000
+:lastModified: 1562958356616000
+:iconuri: null
+:uri: https://www.famkruithof.net/uuid/uuidgen
+:END:
+
+**** guidgenerator :: GUID (UUID) Generator
+:PROPERTIES:
+:guid: BwqJxeLY1x12
+:dateAdded: 1496044726242000
+:lastModified: 1562958359832000
+:iconuri: null
+:uri: https://guidgenerator.com/
+:END:
+
+**** JSONLint :: JSON Validator
+:PROPERTIES:
+:guid: jq5KeJ-Rn8kG
+:dateAdded: 1481646719624000
+:lastModified: 1562958392283000
+:iconuri: https://jsonlint.com/icons/icon-hires.png
+:uri: http://jsonlint.com/
+:END:
+JSONLint - The JSON Validator.
+
+**** Apache Superset :: BI Web Application
+:PROPERTIES:
+:guid: QbKKA7_d5oSN
+:dateAdded: 1506238820760000
+:lastModified: 1553405617335000
+:iconuri: null
+:uri: https://superset.incubator.apache.org/
+:END:
+Apache Superset (incubating) is a modern, enterprise-ready business intelligence web application
+
+*** Resources
+**** Open Data :: Bulgaria Portal for Free Data
+:PROPERTIES:
+:guid: jg7ralKmbPxX
+:dateAdded: 1471629912222000
+:lastModified: 1562958792011000
+:iconuri: null
+:uri: https://opendata.government.bg/
+:END:
+
+**** Quandl :: Financial and Economic Data
+:PROPERTIES:
+:guid: HQnwwbh3bGG0
+:dateAdded: 1475494962064000
+:lastModified: 1475494962064000
+:iconuri: https://www.quandl.com/images/head/apple-touch-icon.png
+:uri: https://www.quandl.com/browse
+:END:
+
+**** Wikidata :: Open Source Data
+:PROPERTIES:
+:guid: T58G846ltmFk
 :dateAdded: 1498297371090000
 :lastModified: 1534631932111000
-:iconuri:  "https://www.wikidata.org/static/apple-touch/wikidata.png"
-:uri: "https://www.wikidata.org/wiki/Wikidata:Main_Page"
-:END: 
-Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.\n\nWikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wikisource, and others.
+:iconuri: https://www.wikidata.org/static/apple-touch/wikidata.png
+:uri: https://www.wikidata.org/wiki/Wikidata:Main_Page
+:END:
+Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.
+
+Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wikisource, and others.
+
+**** ADS-B Exchange :: Flight Data Exchange
+:PROPERTIES:
+:guid: NoyrWqSXqZtR
+:dateAdded: 1548832919256000
+:lastModified: 1548832933218000
+:iconuri: https://adsbexchange.com/wp-content/uploads/cropped-Stealth-1-192x192.png
+:uri: https://adsbexchange.com/
+:END:
+
+**** Academic Torrents :: Academic Datasets Data Repository
+:PROPERTIES:
+:guid: 9WIhGB8XOiR6
+:dateAdded: 1534619926278000
+:lastModified: 1562959221854000
+:iconuri: null
+:uri: http://academictorrents.com/browse.php
+:END:
+
+**** Information is Beautiful Awards :: Data Visualization Showcase
+:PROPERTIES:
+:guid: qarWc6f5WdeK
+:dateAdded: 1533186288167000
+:lastModified: 1562956113421000
+:iconuri: null
+:uri: https://www.informationisbeautifulawards.com/showcase?action=index&award=2015&controller=showcase&page=1&pcategory=winner&type=awards
+:END:
+
+**** Geckoboard :: Common Data Mistakes to Avoid
+:PROPERTIES:
+:guid: 7vEvOHrlva0t
+:dateAdded: 1562958684486000
+:lastModified: 1562958700337000
+:iconuri: https://www.geckoboard.com/apple-touch-icon-152x152.png
+:uri: https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/
+:END:
+
+**** Geckoboard :: Tips for Effective Data Visualization
+:PROPERTIES:
+:guid: DJz-kZ3ZID93
+:dateAdded: 1562958602663000
+:lastModified: 1562958617914000
+:iconuri: https://www.geckoboard.com/apple-touch-icon-152x152.png
+:uri: https://www.geckoboard.com/learn/data-literacy/data-visualization-tips/
+:END:
+
+**** awesome-public-datasets :: A topic-centric list of high-quality open datasets in public domains. Propose NEW data ☛☛☛PR☛☛☛
+:PROPERTIES:
+:guid: 4zzCS38jZfAR
+:dateAdded: 1537726793591000
+:lastModified: 1553405534185000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/awesomedata/awesome-public-datasets
+:END:
+
+**** Eurostat :: ESS Reference Metadata Reporting Standards
+:PROPERTIES:
+:guid: DWtKx3UtIXTs
+:dateAdded: 1556389907050000
+:lastModified: 1562960061175000
+:iconuri: https://ec.europa.eu/eurostat/estat-theme/images/favicon.ico
+:uri: https://ec.europa.eu/eurostat/data/metadata/metadata-structure
+:END:
+
 *** Library
-* Databases
+**** Lighsondata :: The Report Components you Should Never Forget About
+:PROPERTIES:
+:guid: Sakauv3VNE1V
+:dateAdded: 1542082106589000
+:lastModified: 1562956100371000
+:iconuri: null
+:uri: http://www.lightsondata.com/report-components-you-should-never-forget-about/
+:END:
+
+**** Seeing Data :: Making Sense of Data Visualizations
+:PROPERTIES:
+:guid: NvEQGJANfUCy
+:dateAdded: 1475078563456000
+:lastModified: 1562956102709000
+:iconuri: http://seeingdata.org/wp-content/themes/seeing-data-v-3.1/images/favicons/apple-touch-icon-152x152.png
+:uri: http://seeingdata.org/
+:END:
+
+**** Hadley Wickham :: Tidy Data
+:PROPERTIES:
+:guid: duEI1mBhHa1Q
+:dateAdded: 1557380103181000
+:lastModified: 1562959918128000
+:iconuri: null
+:uri: https://vita.had.co.nz/papers/tidy-data.pdf
+:END:
+
+**** Nieman Journalism Lab :: Word Clouds Considered Harmful
+:PROPERTIES:
+:guid: a7u50J7T7UI7
+:dateAdded: 1472950419718000
+:lastModified: 1562959462036000
+:iconuri: null
+:uri: http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/
+:END:
+
+**** FlowingData :: Data Visualization / Business Intelligence Articles
+:PROPERTIES:
+:guid: u1rAENhdD3EL
+:dateAdded: 1472314501078000
+:lastModified: 1562959580060000
+:iconuri: null
+:uri: http://flowingdata.com/
+:END:
+
+**** Perceptual Edge :: Data Visualization / Business Intelligence Articles
+:PROPERTIES:
+:guid: H6eEIQbHvsgb
+:dateAdded: 1501840249463000
+:lastModified: 1562959597832000
+:iconuri: null
+:uri: http://www.perceptualedge.com/
+:END:
+
+**** Visualising Data :: Data Visualization -- A Handbook for Data Driven Design
+:PROPERTIES:
+:guid: AB1aQBN1dyxx
+:dateAdded: 1471166290800000
+:lastModified: 1562959947574000
+:iconuri: null
+:uri: http://book.visualisingdata.com/chapter/chapter-1
+:END:
+
+**** Darkhorseanalytics :: The Five Faces of the Analytics Dream Team
+:PROPERTIES:
+:guid: pza239XxbxAd
+:dateAdded: 1542112457156000
+:lastModified: 1562960145467000
+:iconuri: https://static1.squarespace.com/static/56713bf4dc5cb41142f28d1f/t/5ca3d33e4785d35be777b848/favicon.ico
+:uri: https://www.darkhorseanalytics.com/blog/five-faces-analytics
+:END:
+
+** Databases, DE, & Data Warehousing
 *** Tools
+**** SQL Fiddle :: SQL Interpreter
+:PROPERTIES:
+:guid: mfGSxJ-r3Kdl
+:dateAdded: 1532102225070000
+:lastModified: 1562958369306000
+:iconuri: null
+:uri: http://sqlfiddle.com/
+:END:
+
+**** db<>fiddle :: SQL Interpreter
+:PROPERTIES:
+:guid: bxopCtbFj_Il
+:dateAdded: 1535112987008000
+:lastModified: 1562958373309000
+:iconuri: null
+:uri: https://dbfiddle.uk/
+:END:
+
+**** Poor SQL :: Formatting for T-SQL
+:PROPERTIES:
+:guid: aazs1A_ZJLJx
+:dateAdded: 1542606488371000
+:lastModified: 1562956735693000
+:iconuri: null
+:uri: http://poorsql.com/
+:END:
+
+**** RebaseData :: File and SQL Converters
+:PROPERTIES:
+:guid: d35ssBvFvFBE
+:dateAdded: 1551896066144000
+:lastModified: 1562958379426000
+:iconuri: null
+:uri: https://www.rebasedata.com/
+:END:
+
 *** Resources
+**** SQLZOO :: SQL Training (SQL Server / Oracle / MySQL / DB2 / PostgreSQL)
+:PROPERTIES:
+:guid: tMWrvqDfaDAY
+:dateAdded: 1547405799198000
+:lastModified: 1562956945537000
+:iconuri: null
+:uri: https://sqlzoo.net/
+:END:
+
+**** SQLBolt :: SQL Training (ANSI)
+:PROPERTIES:
+:guid: tzF23jbjkMhs
+:dateAdded: 1533063494607000
+:lastModified: 1562957111014000
+:iconuri: https://sqlbolt.com/cs/images/favicon.png
+:uri: https://sqlbolt.com/
+:END:
+
+**** PostgreSQL Exercises :: SQL Training (PostgreSQL)
+:PROPERTIES:
+:guid: 2f8rdpKWc6Rh
+:dateAdded: 1544039347353000
+:lastModified: 1562957125455000
+:iconuri: https://pgexercises.com/img/favicon.ico
+:uri: https://pgexercises.com/
+:END:
+
+**** sql-ex :: SQL Training (PostgreSQL)
+:PROPERTIES:
+:guid: zoRJp70EvUdd
+:dateAdded: 1537532777256000
+:lastModified: 1562957305494000
+:iconuri: null
+:uri: http://www.sql-ex.com/
+:END:
+
+**** LearnDataModeling :: Tutorial on Data Modeling, Data Warehouse & Business Intelligence!
+:PROPERTIES:
+:guid: lTc52rqbEEpF
+:dateAdded: 1538256941189000
+:lastModified: 1553406028001000
+:iconuri: null
+:uri: http://learndatamodeling.com/
+:END:
+
 *** Library
+**** Agile Data :: Data Strategies, Techniques, and Methodologies
+:PROPERTIES:
+:guid: qipT0Xtm8Iek
+:dateAdded: 1542627529417000
+:lastModified: 1562957419376000
+:iconuri: http://www.agiledata.org/images/adfavicon.ico
+:uri: http://www.agiledata.org/essays/umlDataModelingProfile.html
+:END:
+
+**** Use The Index, Luke :: A Guide to Database Performance for Developers
+:PROPERTIES:
+:guid: Z98PEy2HmWPw
+:dateAdded: 1536633653613000
+:lastModified: 1562957794905000
+:iconuri: https://use-the-index-luke.com/static/favicon-180.uVTbXc7-.png
+:uri: https://use-the-index-luke.com/
+:END:
+
+**** Joe Celko :: Articles at Simple Talk
+:PROPERTIES:
+:guid: 2fTLY0WfkwCW
+:dateAdded: 1536042911756000
+:lastModified: 1553405941423000
+:iconuri: https://www.red-gate.com/simple-talk/wp-content/uploads/2016/07/gatebase-favicon.png
+:uri: https://www.red-gate.com/simple-talk/author/joe-celko/
+:END:
+
+**** Technical University Sofia :: Databases and Information Systems
+:PROPERTIES:
+:guid: xKPIHldfdPFj
+:dateAdded: 1542283385320000
+:lastModified: 1553405896625000
+:iconuri: null
+:uri: https://ff.tu-sofia.bg/~bogi/Database/Index.htm
+:END:
+
+**** Hristo Tudzharov, VTU :: Data Normalization
+:PROPERTIES:
+:guid: EP9IHyphM_H7
+:dateAdded: 1542283379821000
+:lastModified: 1553405934038000
+:iconuri: null
+:uri: http://www.tuj.asenevtsi.com/DB2007/BD35.htm
+:END:
+
+**** Java, SQL and jOOQ :: Say NO to Venn Diagrams When Explaining JOINs
+:PROPERTIES:
+:guid: REN0rqixu1El
+:dateAdded: 1547300006864000
+:lastModified: 1553376788424000
+:iconuri: https://secure.gravatar.com/blavatar/067a765c05b24272cd380eb59374ea77?s=114
+:uri: https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/
+:END:
+
+**** CartesianProduct :: Relational Division in SQL
+:PROPERTIES:
+:guid: up0N9mBz1N4t
+:dateAdded: 1541047244527000
+:lastModified: 1562957500578000
+:iconuri: https://secure.gravatar.com/blavatar/311c8193d44c4c1de75fb56f9d04c631?s=114
+:uri: https://cartesianproduct.wordpress.com/2010/12/05/relational-division-in-sql/
+:END:
+
+**** DW4U :: Data Warehousing Terms and Processes
+:PROPERTIES:
+:guid: KelM-740hEUK
+:dateAdded: 1538638110040000
+:lastModified: 1562957609970000
+:iconuri: https://www.datawarehouse4u.info/assets/ico/favicon-23d23c1d9055a90595217a18e21d362bb8163ca5d1d9f23ca2a7f5975b414f12.ico
+:uri: http://datawarehouse4u.info/index_en.html
+:END:
+
+**** SQL Book :: Tutorials on SQL, Data Warehouse and SQL Server
+:PROPERTIES:
+:guid: uKHOqidH7oA2
+:dateAdded: 1541047841168000
+:lastModified: 1553406142069000
+:iconuri: null
+:uri: https://www.sqlbook.com/data-warehousing/designing-the-data-warehouse-structure-dimensional-modelling/
+:END:
+
+**** citrusdata :: A Health Check Playbook for your Postgres Database
+:PROPERTIES:
+:guid: 3j40pBYN_mUN
+:dateAdded: 1557936525793000
+:lastModified: 1562957748847000
+:iconuri: https://www.citusdata.com/apple-touch-icon.png
+:uri: https://www.citusdata.com/blog/2019/03/29/health-checks-for-your-postgres-database/
+:END:
+
+**** citrusdata :: The most useful Postgres extension: pg_stat_statements
+:PROPERTIES:
+:guid: 3hELLg4qcBol
+:dateAdded: 1549730848064000
+:lastModified: 1557936582770000
+:iconuri: https://www.citusdata.com/apple-touch-icon.png
+:uri: https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/
+:END:
+
+**** pgDash :: Transaction Isolation in PostgreSQL 
+:PROPERTIES:
+:guid: vRxaej-l0fb3
+:dateAdded: 1536062160286000
+:lastModified: 1536062172670000
+:iconuri: null
+:uri: https://pgdash.io/blog/postgres-transactions.html?r
+:END:
+
+**** Baron Schwartz :: Everything You Need to Know About PostgreSQL EXPLAIN
+:PROPERTIES:
+:guid: lUA9z_LXBpii
+:dateAdded: 1553369348105000
+:lastModified: 1553369364061000
+:iconuri: https://www.xaprb.com/apple-touch-icon-precomposed.png
+:uri: https://www.xaprb.com/slides/postgresconf-2019-postgresql-explain-explained/#1
+:END:
+
+**** Baron Schwartz :: How to Index Your Database
+:PROPERTIES:
+:guid: _jrvYxf0Uh0d
+:dateAdded: 1553369957433000
+:lastModified: 1553369969186000
+:iconuri: https://www.xaprb.com/apple-touch-icon-precomposed.png
+:uri: https://www.xaprb.com/slides/postgresconf-2018-how-to-index-your-database/#1
+:END:
+
+**** habr :: Indexes in PostgreSQL
+:PROPERTIES:
+:guid: _-_RsU39P6Il
+:dateAdded: 1552565967800000
+:lastModified: 1553406190569000
+:iconuri: https://habr.com/images/apple-touch-icon.png
+:uri: https://habr.com/ru/company/postgrespro/blog/441962/
+:END:
+
+**** Postgres Open :: Cleaning out Crocodiles Teeth with PostgreSQL Indexes - A Story on all the Index Types in PG - YouTube
+:PROPERTIES:
+:guid: 7Zy99FZFQhG7
+:dateAdded: 1561655567682000
+:lastModified: 1562957985543000
+:iconuri: null
+:uri: https://youtu.be/2l-nCkPQVuQ
+:END:
+
+**** Compose Articles :: Indexing for Full-Text Search in PostgreSQL
+:PROPERTIES:
+:guid: fGMbhHjF7Dqz
+:dateAdded: 1555261892740000
+:lastModified: 1562957950214000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://www.compose.com/articles/indexing-for-full-text-search-in-postgresql/
+:END:
+
+**** rachbelaid.com :: Postgres Full-Text Search is Good Enough!
+:PROPERTIES:
+:guid: GqfPnfXXJGlE
+:dateAdded: 1548004193427000
+:lastModified: 1562957935863000
+:iconuri: http://rachbelaid.com/assets/images/favicon.ico
+:uri: http://rachbelaid.com/postgres-full-text-search-is-good-enough/
+:END:
+
+**** Compose :: Mastering PostgreSQL Tools: Full-Text Search and Phrase Search - Compose Articles
+:PROPERTIES:
+:guid: u5YcJO6lAIQG
+:dateAdded: 1537946159043000
+:lastModified: 1562958037313000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://www.compose.com/articles/mastering-postgresql-tools-full-text-search-and-phrase-search/
+:END:
+
+**** ScaleGrid :: Managing High Availability in PostgreSQL
+:PROPERTIES:
+:guid: bogXVLP1rd9P
+:dateAdded: 1552565920125000
+:lastModified: 1553085030582000
+:iconuri: https://scalegrid.io/blog/wp-content/themes/scalegrid2.5.4/images/favicon.ico
+:uri: https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-1/
+:END:
+
+s
+
+** Statistics & Data Science
+*** Resources
+**** William Chen :: Probability Cheatsheet
+:PROPERTIES:
+:guid: tHCoTKE9oyvs
+:dateAdded: 1475078267192000
+:lastModified: 1562970188684000
+:iconuri: https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/54f36302e4b08ec9ae11464f/favicon.ico
+:uri: http://www.wzchen.com/probability-cheatsheet/
+:END:
+
+*** Library
+**** OpenIntro :: Introduction to Statistics
+:PROPERTIES:
+:guid: 3k1ZVv-nzxA9
+:dateAdded: 1470052414122000
+:lastModified: 1562970094852000
+:iconuri: https://www.openintro.org/img/brand/favicon.ico
+:uri: https://www.openintro.org/stat/textbook.php?stat_book=os
+:END:
+
+**** Harvard Business School :: A Refresher on Statistical Significance
+:PROPERTIES:
+:guid: HioJmHyPln30
+:dateAdded: 1470997931375000
+:lastModified: 1562970086073000
+:iconuri: null
+:uri: https://hbr.org/2016/02/a-refresher-on-statistical-significance
+:END:
+
+**** NIST/SEMATECH :: Engineering Statistics Handbook
+:PROPERTIES:
+:guid: UfqTnGeEgQS0
+:dateAdded: 1475078254352000
+:lastModified: 1562970103545000
+:iconuri: null
+:uri: http://www.itl.nist.gov/div898/handbook/index.htm
+:END:
+The goal of this handbook is to help scientists and engineers incorporate statistical methods in their work as efficiently as possible.
+
+**** VarianceExplained :: Understanding the Beta Distribution (Using Baseball Statistics)
+:PROPERTIES:
+:guid: mLeBeicSx67e
+:dateAdded: 1471793852015000
+:lastModified: 1562970141523000
+:iconuri: http://varianceexplained.org/images/apple-touch-icon-144x144-precomposed.png
+:uri: http://varianceexplained.org/statistics/beta_distribution_and_baseball/
+:END:
+
+**** datasciencemasters :: The Open Source Data Science Masters
+:PROPERTIES:
+:guid: Z--YiTbVZGEG
+:dateAdded: 1530708974200000
+:lastModified: 1562970171522000
+:iconuri: null
+:uri: http://datasciencemasters.org/
+:END:
+
+**** Metrics Maven :: Weighted Moving Average in PostgreSQL
+:PROPERTIES:
+:guid: 6APifjitZXaG
+:dateAdded: 1547315511927000
+:lastModified: 1547315531761000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://compose.com/articles/metrics-maven-calculating-a-weighted-moving-average-in-postgresql/
+:END:
+
+**** Metrics Maven :: Exponentially Weighted Moving Average in PostgreSQL
+:PROPERTIES:
+:guid: kgFE4W8X9e4M
+:dateAdded: 1547315543078000
+:lastModified: 1547315562972000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://compose.com/articles/metrics-maven-calculating-an-exponentially-weighted-moving-average-in-postgresql/
+:END:
+
+**** Metrics Maven :: Beyond Average - A Look at Mean in PostgreSQL
+:PROPERTIES:
+:guid: OtF5v8ptUGsu
+:dateAdded: 1547315614992000
+:lastModified: 1553402293164000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://compose.com/articles/metrics-maven-beyond-average-a-look-at-mean-in-postgresql/
+:END:
+
+**** Metrics Maven :: Weighted Average in PostgreSQL
+:PROPERTIES:
+:guid: ZjxTfqASJb4I
+:dateAdded: 1547315651855000
+:lastModified: 1553402294565000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://compose.com/articles/metrics-maven-calculating-a-weighted-average-in-postgresql/
+:END:
+
+**** Metrics Maven :: Moving Average in PostgreSQL
+:PROPERTIES:
+:guid: _NgpPUJHJDGs
+:dateAdded: 1547315687934000
+:lastModified: 1553402296472000
+:iconuri: https://d11f55tj5eo9e5.cloudfront.net/assets/megatron/favicon.ico
+:uri: https://compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/
+:END:
+
+
+* Linux & Automation
+** Tools
+**** PiBakery :: The Easiest Way to Setup a RPi
+:PROPERTIES:
+:guid: HsUc5awZ2r5T
+:dateAdded: 1505020556710000
+:lastModified: 1537328588579000
+:iconuri: https://www.pibakery.org/icon.ico
+:uri: http://www.pibakery.org/
+:END:
+The blocks based, easy to use setup tool for Raspberry Pi
+
+**** crontab guru :: The Cron Schedule Expression Editor
+:PROPERTIES:
+:guid: 4EI04qqHQdLO
+:dateAdded: 1533219993204000
+:lastModified: 1562969608222000
+:iconuri: null
+:uri: https://crontab.guru/
+:END:
+
+**** upstart :: An Event-Based Init Daemon
+:PROPERTIES:
+:guid: Ke22UqkRx5no
+:dateAdded: 1511274438620000
+:lastModified: 1562969628609000
+:iconuri: null
+:uri: http://upstart.ubuntu.com/
+:END:
+
+**** Supervisor :: A Process Control System
+:PROPERTIES:
+:guid: K8rv1TPw_G-r
+:dateAdded: 1510617680900000
+:lastModified: 1510617680900000
+:iconuri: null
+:uri: http://supervisord.org/
+:END:
+
+** Resources
+**** Linux Journey :: Learn the Ways of Linux-fu
+:PROPERTIES:
+:guid: ZQ4DJe5RP2QJ
+:dateAdded: 1478327726633000
+:lastModified: 1562969663247000
+:iconuri: https://linuxjourney.com/assets/favicon-e8bea7a0071e296638a3a1a08be81f0a30b9c945625e5a200fefecd8d9b2ed6c.ico
+:uri: https://linuxjourney.com/
+:END:
+
+**** Linux Academy :: Linux, Cloud, DevOps Trainings
+:PROPERTIES:
+:guid: CeThGvHcpV-v
+:dateAdded: 1521050071300000
+:lastModified: 1534631930237000
+:iconuri: null
+:uri: https://linuxacademy.com/
+:END:
+Online Cloud, Linux, DevOps & Certification Training
+
+**** skx/sysadmin-util :: Tools for Linux/Unix Sysadmins.
+:PROPERTIES:
+:guid: __HC45_i21s9
+:dateAdded: 1517341152630000
+:lastModified: 1537329721464000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/skx/sysadmin-util
+:END:
+
+**** jondot/awesome-devenv :: A Curated List for Making an Awesome Development Environment.
+:PROPERTIES:
+:guid: xQ3LURVt2Le-
+:dateAdded: 1517341979880000
+:lastModified: 1562969747207000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/jondot/awesome-devenv
+:END:
+
+**** n1trux/awesome-sysadmin :: A Curated List of Open Source Sysadmin Resources
+:PROPERTIES:
+:guid: SqlFz3YgHFeH
+:dateAdded: 1517341987020000
+:lastModified: 1562969716947000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/n1trux/awesome-sysadmin
+:END:
+
+**** k4m4/terminals-are-sexy :: A Curated List of Terminal Frameworks, Plugins & Resources for CLI Lovers.
+:PROPERTIES:
+:guid: Yn9_SykR2GEv
+:dateAdded: 1517341991730000
+:lastModified: 1537329593556000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/k4m4/terminals-are-sexy
+:END:
+
+**** unixorn/awesome-zsh-plugins :: A Collection of ZSH Frameworks, Plugins & Themes
+:PROPERTIES:
+:guid: M2WCvuvUCSsO
+:dateAdded: 1517341354450000
+:lastModified: 1537329523747000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/unixorn/awesome-zsh-plugins
+:END:
+
+** Library
+**** The Mine of Information :: Beginner's Guide to Installing from Source
+:PROPERTIES:
+:guid: Cr90LoJl_xrA
+:dateAdded: 1519918644712000
+:lastModified: 1537329474934000
+:iconuri: null
+:uri: http://moi.vonos.net/linux/beginners-installing-from-source/
+:END:
+
+**** Jesse Hallett :: .The Lost Art of the Makefile
+:PROPERTIES:
+:guid: v4xxZTHupYGl
+:dateAdded: 1519881143958000
+:lastModified: 1537329453759000
+:iconuri: null
+:uri: http://www.olioapps.com/blog/the-lost-art-of-the-makefile/
+:END:
+
+**** Mendel Cooper :: Building and Installing Software Packages for Linux
+:PROPERTIES:
+:guid: wN9gzIoelvuv
+:dateAdded: 1519918640326000
+:lastModified: 1537329424507000
+:iconuri: null
+:uri: http://www.tldp.org/HOWTO/Software-Building-HOWTO.html
+:END:
+
+**** Computingforgeeks :: Steps to Installing Arch Linux
+:PROPERTIES:
+:guid: waShnKMezYmL
+:dateAdded: 1519924393250000
+:lastModified: 1519924393250000
+:iconuri: https://computingforgeeks.com/wp-content/uploads/2018/06/favicon.ico
+:uri: https://computingforgeeks.com/install-arch-linux/
+:END:
+
+**** Medium :: Common Approaches to Securing Linux Servers
+:PROPERTIES:
+:guid: lOAx1hRrt8Zf
+:dateAdded: 1517857992290000
+:lastModified: 1537329350962000
+:iconuri: https://cdn-images-1.medium.com/fit/c/304/304/1*8I-HPL0bfoIzGied-dzOvA.png
+:uri: https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b
+:END:
+
+**** Anand Iyer :: A Simpler Way to Manage Your Dotfiles 
+:PROPERTIES:
+:guid: 4QxuoErdFjYw
+:dateAdded: 1555344159809000
+:lastModified: 1562969823584000
+:iconuri: null
+:uri: https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
+:END:
+
+**** Developers Area :: Understanding sed -- A Practical Guide
+:PROPERTIES:
+:guid: eqgZmb2ZbVx3
+:dateAdded: 1516392888880000
+:lastModified: 1562969872199000
+:iconuri: null
+:uri: http://devarea.com/understanding-sed-practical-guide/
+:END:
+
+**** Arabesque :: Unix as IDE
+:PROPERTIES:
+:guid: 1IC63qEOpbzF
+:dateAdded: 1511294219540000
+:lastModified: 1562969954709000
+:iconuri: null
+:uri: https://sanctum.geek.nz/arabesque/series/unix-as-ide/
+:END:
+
+**** Ubuntu Community :: Configuring SSH/OpenSSH
+:PROPERTIES:
+:guid: knP9sKIFu2HS
+:dateAdded: 1510331104710000
+:lastModified: 1562969891830000
+:iconuri: null
+:uri: https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
+:END:
+
+**** Scott's Weblog :: Using SSH Multiplexing
+:PROPERTIES:
+:guid: 4XwmRAc8361I
+:dateAdded: 1517497243620000
+:lastModified: 1537329032860000
+:iconuri: https://blog.scottlowe.org/assets/apple-touch-icon-144-precomposed.png
+:uri: https://blog.scottlowe.org/2015/12/11/using-ssh-multiplexing/
+:END:
+
+**** dotFiles :: Empowering OpenSSH -- SSH Best Practices
+:PROPERTIES:
+:guid: 888FdWBW3vKo
+:dateAdded: 1517497263260000
+:lastModified: 1562969949182000
+:iconuri: null
+:uri: http://dotfiles.tnetconsulting.net/articles/2015/0506/empowering-openssh.html
+:END:
+
+**** zwischenzugs :: Ten Things I Wish I’d Known About bash
+:PROPERTIES:
+:guid: JSz0hYinXGjU
+:dateAdded: 1515280513690000
+:lastModified: 1537328895653000
+:iconuri: https://s2.wp.com/i/webclip.png
+:uri: https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/
+:END:
+
+**** JimFrenette.com :: Cygwin Oh My ZSH Recipe
+:PROPERTIES:
+:guid: m-94Th-dzoA6
+:dateAdded: 1517318334598000
+:lastModified: 1537328868143000
+:iconuri: null
+:uri: http://jimfrenette.com/2017/02/cygwin-oh-my-zsh-recipe/
+:END:
+
+**** /r/Unixporn :: [Guide] Defining Program Colors Through .Xresources
+:PROPERTIES:
+:guid: 4hAdY6yIVRhm
+:dateAdded: 1534717890640000
+:lastModified: 1562970013977000
+:iconuri: https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png
+:uri: https://www.reddit.com/r/unixporn/comments/8giij5/guide_defining_program_colors_through_xresources/
+:END:
+
+**** flashfocus :: Simple Focus Animations for Tiling Window Managers.
+:PROPERTIES:
+:guid: kovMkhhNCM7F
+:dateAdded: 1534717713508000
+:lastModified: 1562970034839000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/fennerm/flashfocus
+:END:
+
+**** Justin is a Maker :: Headless Raspberry Pi Startup with Ansible
+:PROPERTIES:
+:guid: NbSOOIsz-xdv
+:dateAdded: 1511299204190000
+:lastModified: 1537328639030000
+:iconuri: http://justin.isamaker.com/assets/img/favicon/android-icon-192x192.png
+:uri: http://justin.isamaker.com/ansible-pi/
+:END:
+
+**** markmandel :: My dotfiles and Local Machine Provisioning
+:PROPERTIES:
+:guid: EgUcK3XbMz38
+:dateAdded: 1517602399800000
+:lastModified: 1562972096845000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/markmandel/dotfiles
+:END:
+
+
+* Programming
+** Tools
+**** repl.it :: Online REPL, Compiler & IDE
+:PROPERTIES:
+:guid: M8p7yvZ93KSq
+:dateAdded: 1503816356720000
+:lastModified: 1562964193482000
+:iconuri: https://repl.it/public/images/favicon.ico
+:uri: https://repl.it/
+:END:
+
+**** Regex101:: Iteratively Build Your Regular Expressions
+:PROPERTIES:
+:guid: CfgCabqgoo-w
+:dateAdded: 1470942977626000
+:lastModified: 1562964147348000
+:iconuri: https://regex101.com/static/assets/android-icon-192x192.png
+:uri: https://regex101.com/
+:END:
+
+**** RegExr :: Learn, Build, and Test Regular Expressions
+:PROPERTIES:
+:guid: qiXyBQbRlqG8
+:dateAdded: 1481924409137000
+:lastModified: 1562964135265000
+:iconuri: https://regexr.com/assets/icons/apple-touch-icon.png
+:uri: http://regexr.com/
+:END:
+RegExr: Learn, Build, & Test RegEx
+
+**** Pythex :: A Python Regular Expression Editor
+:PROPERTIES:
+:guid: aw0IWTC5KnXv
+:dateAdded: 1481924394596000
+:lastModified: 1562964160198000
+:iconuri: https://pythex.org/static/img/favicon.ico
+:uri: http://pythex.org/
+:END:
+
+**** Regexper :: Railroad Diagram for Your Regex
+:PROPERTIES:
+:guid: zcijFGorLduw
+:dateAdded: 1516690476705000
+:lastModified: 1562964189093000
+:iconuri: null
+:uri: https://regexper.com/
+:END:
+Regexper visualizes your regular expression in the form of a railroad diagram (syntax diagram).
+
+**** Postman :: API Development Environment
+:PROPERTIES:
+:guid: s3SJcqfiicK-
+:dateAdded: 1536752804902000
+:lastModified: 1537330999727000
+:iconuri: https://www.getpostman.com/img/touch-icons/touch-icon-192x192.png
+:uri: https://www.getpostman.com/
+:END:
+
+**** Gource :: An SVC Visualization Tool
+:PROPERTIES:
+:guid: sg7qTs3o4JPI
+:dateAdded: 1498131149500000
+:lastModified: 1537332724629000
+:iconuri: null
+:uri: http://gource.io/
+:END:
+
+**** GatsbyJS :: Free and Open Source Framework for Rapid Website Creation
+:PROPERTIES:
+:guid: 3UcF8XNrmebl
+:dateAdded: 1546836457322000
+:lastModified: 1562964350364000
+:iconuri: https://www.gatsbyjs.org/icons/icon-512x512.png?v=07fab8ad5473f1e15e5f98b64f5d02eda19b8316
+:uri: https://www.gatsbyjs.org/
+:END:
+
+**** Cloudflare :: Cloudflare ESNI Checker
+:PROPERTIES:
+:guid: D7DypR159E8p
+:dateAdded: 1562336576169000
+:lastModified: 1562967910629000
+:iconuri: https://www.cloudflare.com/favicon-196x196.png
+:uri: https://www.cloudflare.com/ssl/encrypted-sni/
+:END:
+
+**** Gibson Research Corp. :: Interactive Brute Force Search Space Calculator 
+:PROPERTIES:
+:guid: rdbXgRwoyaIY
+:dateAdded: 1523128358970000
+:lastModified: 1562961682043000
+:iconuri: https://www.grc.com/apple-touch-icon.png
+:uri: https://www.grc.com/haystack.htm
+:END:
+
+** Resources
+**** B+ Trees :: Algorithm Visualizations
+:PROPERTIES:
+:guid: ySCrTUkeIUA9
+:dateAdded: 1548596279358000
+:lastModified: 1562964216262000
+:iconuri: null
+:uri: https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
+:END:
+
+**** Algorithm Wiki :: Algorithm Visualisations in JavaScript
+:PROPERTIES:
+:guid: gTb90f7PPXhR
+:dateAdded: 1527337978020000
+:lastModified: 1562967597012000
+:iconuri: null
+:uri: http://will.thimbleby.net/algorithms/doku.php
+:END:
+
+**** cheat-sheets.org :: Git Cheat Sheet
+:PROPERTIES:
+:guid: wE6b6pBJtSC6
+:dateAdded: 1479025068197000
+:lastModified: 1553404747473000
+:iconuri: null
+:uri: http://www.cheat-sheets.org/saved-copy/git-cheat-sheet-large.png
+:END:
+
+**** alexkaratarakis :: Useful .gitattributes Templates Collection
+:PROPERTIES:
+:guid: 9ANiUoR-35Ct
+:dateAdded: 1524735684290000
+:lastModified: 1562964402349000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/alexkaratarakis/gitattributes
+:END:
+
+**** Camel Documentation :: Brief YAML reference
+:PROPERTIES:
+:guid: jyd7vUgKXIBO
+:dateAdded: 1542522370784000
+:lastModified: 1542522389887000
+:iconuri: null
+:uri: https://camel.readthedocs.io/en/latest/yamlref.html
+:END:
+
+**** wsargent :: Docker Cheat Sheet
+:PROPERTIES:
+:guid: xo2otcTfCXdA
+:dateAdded: 1517325595080000
+:lastModified: 1553404770182000
+:iconuri: null
+:uri: https://github.com/wsargent/docker-cheat-sheet
+:END:
+
+**** expeditedssl :: AWS in Plain English
+:PROPERTIES:
+:guid: R-oLQnG8sE1v
+:dateAdded: 1509975146860000
+:lastModified: 1537331217896000
+:iconuri: null
+:uri: https://www.expeditedssl.com/aws-in-plain-english
+:END:
+
+**** The Twelve-Factor App :: A methodology for building web apps
+:PROPERTIES:
+:guid: PJ3dJuJYALc1
+:dateAdded: 1518722044950000
+:lastModified: 1537331442478000
+:iconuri: https://12factor.net/images/favicon.ico
+:uri: https://12factor.net/
+:END:
+
+**** Issue Haven :: Contribute to open source projects
+:PROPERTIES:
+:guid: z_GShHT8rMNJ
+:dateAdded: 1534836997086000
+:lastModified: 1537330909839000
+:iconuri: https://issuehaven.com/static/favicon.ico
+:uri: https://issuehaven.com/
+:END:
+
+**** devspace :: Curated List of GitHub Issues and Pull Requests Templates
+:PROPERTIES:
+:guid: SNAcufN_xnVa
+:dateAdded: 1554920623772000
+:lastModified: 1562972336914000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/devspace/awesome-github-templates
+:END:
+
+**** Big-O Cheat Sheet :: Space and time Big-O complexities of common algorithms
+:PROPERTIES:
+:guid: crXa2B_Noyi3
+:dateAdded: 1499435964968000
+:lastModified: 1537332265748000
+:iconuri: null
+:uri: http://bigocheatsheet.com/
+:END:
+
+**** Refactoring Guru :: The Catalog of Design Patterns
+:PROPERTIES:
+:guid: EA_-QVJv6h1c
+:dateAdded: 1532254960780000
+:lastModified: 1537332696833000
+:iconuri: null
+:uri: https://refactoring.guru/design-patterns/catalog
+:END:
+
+**** github/kamranahmedse :: Design Patterns for Humans
+:PROPERTIES:
+:guid: WjCegPnWK3ew
+:dateAdded: 1522416996380000
+:lastModified: 1537332672713000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/kamranahmedse/design-patterns-for-humans
+:END:
+Ultra-simplified explanation to design patterns!
+
+A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your mind (and maybe mine) by explaining them in the simplest way possible. 
+
+**** sourcemaking.com :: Design Patterns Reference
+:PROPERTIES:
+:guid: 46HLSK3kWS82
+:dateAdded: 1532867821190000
+:lastModified: 1537332683542000
+:iconuri: null
+:uri: https://sourcemaking.com/design_patterns
+:END:
+AntiPatterns, like their design pattern counterparts, define an industry vocabulary for the common defective processes and implementations within organizations. A higher-level vocabulary simplifies communication between software practitioners and enables concise description of higher-level concepts.
+
+**** ghacks :: Configure DNS Over HTTPS in Firefox
+:PROPERTIES:
+:guid: GsMXQ5M4M26Z
+:dateAdded: 1562336311226000
+:lastModified: 1562961705138000
+:iconuri: null
+:uri: https://www.ghacks.net/2018/04/02/configure-dns-over-https-in-firefox/
+:END:
+
+**** lfit/itpol :: Linux Workstation Security Checklist
+:PROPERTIES:
+:guid: yQqYii83pten
+:dateAdded: 1537894974046000
+:lastModified: 1562961832226000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/lfit/itpol/blob/master/linux-workstation-security.md
+:END:
+
+**** Hack-with-Github/Awesome-Hacking :: Security and Pentesting Resources
+:PROPERTIES:
+:guid: fzxASVBBOoIg
+:dateAdded: 1501829335330000
+:lastModified: 1562962025245000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/Hack-with-Github/Awesome-Hacking/blob/master/README.md
+:END:
+
+**** lrvick/security-token-docs :: Password Mangement Solutions
+:PROPERTIES:
+:guid: hADUpH7beshA
+:dateAdded: 1558448992855000
+:lastModified: 1562962000378000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/lrvick/security-token-docs/blob/master/Use_Cases/Password_Mangement.md
+:END:
+
+**** Kickball/awesome-selfhosted :: Software Network Services and Web Applications Which can be Hosted Locally
+:PROPERTIES:
+:guid: b83y8wZeK8eQ
+:dateAdded: 1517345630100000
+:lastModified: 1562971215283000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/Kickball/awesome-selfhosted#project-management
+:END:
+
+**** minimaxir :: The Big List of Naughty Strings
+:PROPERTIES:
+:guid: W8EDkpvAEyJ-
+:dateAdded: 1531965583440000
+:lastModified: 1562968248468000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/minimaxir/big-list-of-naughty-strings
+:END:
+
+** Library
+**** End Point :: Git Workflows That Work
+:PROPERTIES:
+:guid: 6b2FECJuuUPg
+:dateAdded: 1537526390033000
+:lastModified: 1562964416404000
+:iconuri: https://www.endpoint.com/images/favicon.ico
+:uri: https://www.endpoint.com/blog/2014/05/02/git-workflows-that-work
+:END:
+
+**** DigitalOcean :: How To Create a Pull Request on GitHub
+:PROPERTIES:
+:guid: WsvAONOjLJxt
+:dateAdded: 1489356746576000
+:lastModified: 1562964423237000
+:iconuri: null
+:uri: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+:END:
+
+**** TU Sofia :: Software Engineering
+:PROPERTIES:
+:guid: 3bzhWKIMIW0m
+:dateAdded: 1542283374177000
+:lastModified: 1562964619870000
+:iconuri: null
+:uri: https://ff.tu-sofia.bg/~bogi/StopFak/SoftEngr/index.htm
+:END:
+
+**** FMI :: Software Engineering Lectures and Resources
+:PROPERTIES:
+:guid: _4b1FQ0QIYRq
+:dateAdded: 1514890837180000
+:lastModified: 1562964744771000
+:iconuri: http://fmi.wikidot.com/common--images/apple-touch-icon-114x114.png
+:uri: http://fmi.wikidot.com/
+:END:
+
+**** Think Like (a) Git :: A Guide for the Perplexed
+:PROPERTIES:
+:guid: C302JE0sI8bK
+:dateAdded: 1516210216370000
+:lastModified: 1562964768457000
+:iconuri: null
+:uri: http://think-like-a-git.net/
+:END:
+
+**** DeepSource :: 5 Best Practices for Using Git
+:PROPERTIES:
+:guid: qHCx0smxOY_G
+:dateAdded: 1551117285187000
+:lastModified: 1562964800171000
+:iconuri: https://deepsource.io/images/apple-touch-icon.png
+:uri: https://deepsource.io/blog/git-best-practices/
+:END:
+
+**** Medium :: Rebase vs Merge for Beginners
+:PROPERTIES:
+:guid: fu0kCksPCXu8
+:dateAdded: 1475631627085000
+:lastModified: 1537332936593000
+:iconuri: https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png
+:uri: https://medium.com/@justintulk/git-rebase-vs-git-merge-for-beginners-aecc1ef1c718#.qxrw276j7
+:END:
+
+**** hakunin.com :: 6 Practices for Super Smooth Ansible Experience
+:PROPERTIES:
+:guid: fEz-kLO8_xX2
+:dateAdded: 1515769149310000
+:lastModified: 1562965206358000
+:iconuri: https://hakunin.s3.amazonaws.com/assets/favicon-bf5167a2d50be47c0a8a35964e8a0fa08f92f0420b78b0ecf17bb646badf41ed.png
+:uri: http://hakunin.com/six-ansible-practices
+:END:
+
+**** Applied Informatics :: How To Manage SSH Keys Using Ansible
+:PROPERTIES:
+:guid: lP1viWkemqSZ
+:dateAdded: 1511828933060000
+:lastModified: 1562965322961000
+:iconuri: null
+:uri: http://blog.appliedinformaticsinc.com/how-to-manage-ssh-keys-using-ansible/
+:END:
+
+**** BetterExplained :: The Quick Guide to GUIDs
+:PROPERTIES:
+:guid: plRFOYVrjZ1o
+:dateAdded: 1496045452070000
+:lastModified: 1537330820889000
+:iconuri: null
+:uri: https://betterexplained.com/articles/the-quick-guide-to-guids/
+:END:
+A GUID (globally unique identifier) is a bigger, badder version of this type of ID number. You may see the term UUID tossed about (universally unique identifier), a nitpicky word for those whose numbers are unique not only within the globe, but throughout the entire universe.
+
+**** Stony Brook University :: Steven Skiena's Algorithms Lectures
+:PROPERTIES:
+:guid: kxALLFLptKle
+:dateAdded: 1527337986840000
+:lastModified: 1537332433696000
+:iconuri: null
+:uri: http://www3.cs.stonybrook.edu/%7Ealgorith/video-lectures/
+:END:
+
+**** The Floating-Point Guide :: What Every Programmer Should Know About Floating-Point Arithmetic
+:PROPERTIES:
+:guid: m5-NxNTS589Q
+:dateAdded: 1476030597466000
+:lastModified: 1562965518772000
+:iconuri: null
+:uri: http://floating-point-gui.de/
+:END:
+What every programmer should know about floating-point arithmetic.
+
+**** Kunststube :: What Every Programmer Absolutely, Positively Needs to Know About Encodings and Character Sets to Work With Text
+:PROPERTIES:
+:guid: zp7MGAZdzV5s
+:dateAdded: 1562965639523000
+:lastModified: 1562965660249000
+:iconuri: null
+:uri: http://kunststube.net/encoding/
+:END:
+
+**** Piotr Limanowski :: The Three-Pass Reading Method for Programmers
+:PROPERTIES:
+:guid: pSWZb8KggyJO
+:dateAdded: 1497499758523000
+:lastModified: 1537332256703000
+:iconuri: https://codearsonist.com/assets/img/apple-touch-icon-152x152.png
+:uri: https://codearsonist.com/reading-for-programmers
+:END:
+Use the three-pass (verify-grasp-analyze) reading algorithm and get comfortable with reading hundreds of papers. Use org-mode and keep the notes in check.
+
+**** Parametric Press :: Unraveling the JPEG
+:PROPERTIES:
+:guid: 7LpUhC1ga2_o
+:dateAdded: 1560271116626000
+:lastModified: 1562970562802000
+:iconuri: null
+:uri: https://parametric.press/issue-01/unraveling-the-jpeg/
+:END:
+
+**** Donne Martin :: Learn How to Design Large-Scale Systems
+:PROPERTIES:
+:guid: LhvihSlCmFhC
+:dateAdded: 1534866172083000
+:lastModified: 1562965770230000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/donnemartin/system-design-primer
+:END:
+
+**** Lisperati :: Learn Lisp
+:PROPERTIES:
+:guid: iVoO0VMSkuMI
+:dateAdded: 1556787143884000
+:lastModified: 1562970899835000
+:iconuri: null
+:uri: http://lisperati.com/syntax.html
+:END:
+
+** Python
+*** Tools
+**** Binder :: Interactive Jupyter Notebooks from a GitHub Repository
+:PROPERTIES:
+:guid: 5IlZog3wBOxH
+:dateAdded: 1546074311194000
+:lastModified: 1562965857756000
+:iconuri: https://gke.mybinder.org/static/favicon.ico?v=7102bb857703a0fece6d039a6777fc3f
+:uri: https://mybinder.org/
+:END:
+
+*** Resources
+**** github/kriadmin :: 30 Seconds of Python Code
+:PROPERTIES:
+:guid: W8Sb9WYFIFBO
+:dateAdded: 1519918255180000
+:lastModified: 1534631930454000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/kriadmin/30-seconds-of-python-code
+:END:
+Python implementation of 30-seconds-of-code
+
+**** faif/python-patterns: A Collection of Design Patterns/Idioms in Python
+:PROPERTIES:
+:guid: riWiSe00fvBC
+:dateAdded: 1555067745566000
+:lastModified: 1562965887196000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/faif/python-patterns
+:END:
+
+**** TheAlgorithms/Python :: Algorithms Implemented in Python
+:PROPERTIES:
+:guid: fzcSWpmzli2_
+:dateAdded: 1542606250668000
+:lastModified: 1562965902101000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/TheAlgorithms/Python
+:END:
+
+**** The Hitchhiker’s Guide to Python :: Online Python Guide
+:PROPERTIES:
+:guid: XXheC3QyaTNS
+:dateAdded: 1556248249605000
+:lastModified: 1562965964772000
+:iconuri: https://media.readthedocs.org/images/favicon.png
+:uri: https://docs.python-guide.org/
+:END:
+
+**** Python Sheets :: SQLAlchemy Recipes
+:PROPERTIES:
+:guid: Xkv6rOkri2WW
+:dateAdded: 1507211577639000
+:lastModified: 1562965982587000
+:iconuri: https://www.pythonsheets.com/_static/favicon.ico
+:uri: https://www.pythonsheets.com/notes/python-sqlalchemy.html
+:END:
+
+**** Queirozf :: Pandas DataFrame by Example
+:PROPERTIES:
+:guid: wMvzUicMaWxS
+:dateAdded: 1540746474013000
+:lastModified: 1562966002129000
+:iconuri: http://queirozf.com/assets/img/icon-256.png
+:uri: http://queirozf.com/entries/pandas-dataframe-by-example
+:END:
+
+**** Realpython :: Pandas Tricks & Features You May Not Know
+:PROPERTIES:
+:guid: Awh_f1F_hAx9
+:dateAdded: 1535562672371000
+:lastModified: 1562966037356000
+:iconuri: https://realpython.com/static/favicon.68cbf4197b0c.png
+:uri: https://realpython.com/python-pandas-tricks/
+:END:
+
+**** The Python Graph Gallery :: Visualizing Data with Python
+:PROPERTIES:
+:guid: __pYJQGes38o
+:dateAdded: 1536085073134000
+:lastModified: 1562966150174000
+:iconuri: https://python-graph-gallery.com/wp-content/uploads/2017/05/Logo_PGG_light.jpg
+:uri: https://python-graph-gallery.com/
+:END:
+
+**** ML+ :: Top 50 Matplotlib Visualizations
+:PROPERTIES:
+:guid: lza9fMTecrRe
+:dateAdded: 1543841203078000
+:lastModified: 1562966157839000
+:iconuri: https://www.machinelearningplus.com/wp-content/uploads/2017/04/apple-icon-152x152.png
+:uri: https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
+:END:
+
+*** Library
+**** PyDanny :: Daniel Roy Greenfeld's Blog
+:PROPERTIES:
+:guid: D8lLJKZGwYXU
+:dateAdded: 1517818027330000
+:lastModified: 1534631930994000
+:iconuri: null
+:uri: https://www.pydanny.com/
+:END:
+Inside the Head of PyDanny
+
+**** Test and Code :: The Python Test Podcast
+:PROPERTIES:
+:guid: n2gYzKlQ9l1Q
+:dateAdded: 1517040711790000
+:lastModified: 1517040711790000
+:iconuri: https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bc7f1faf-8aad-4135-bb12-83a8af679756/touch_icon_ipad.png
+:uri: http://testandcode.com/
+:END:
+
+**** Talk Python To Me :: Podcast Episodes Recordings
+:PROPERTIES:
+:guid: iU6G-xWb94cE
+:dateAdded: 1508742365600000
+:lastModified: 1562966850971000
+:iconuri: https://talkpython.fm/static/img/apple-touch/apple-touch-icon-180.png?cache_id=f05f1d4aa0b0494b126bf11439b86ef5
+:uri: https://talkpython.fm/episodes/all
+:END:
+
+**** Python Testing :: Python Software Development and Testing
+:PROPERTIES:
+:guid: oBkYZKyzj7WL
+:dateAdded: 1508078125500000
+:lastModified: 1534631930449000
+:iconuri: http://pythontesting.net/wp-content/themes/sixteen-nine-pro/images/favicon.ico
+:uri: http://pythontesting.net/
+:END:
+Python Software Development and Software Testing (posts and podcast)
+
+**** Full Stack Python :: Deploy Python Book
+:PROPERTIES:
+:guid: xSBiog9xmSbl
+:dateAdded: 1518784265330000
+:lastModified: 1518784265330000
+:iconuri: https://www.deploypython.com/img/fsp-fav.png
+:uri: https://www.deploypython.com/
+:END:
+
+**** Python Wiki :: Useful Modules
+:PROPERTIES:
+:guid: jF6iE7DXe-z1
+:dateAdded: 1475078420824000
+:lastModified: 1562966409183000
+:iconuri: null
+:uri: https://wiki.python.org/moin/UsefulModules
+:END:
+Useful modules, packages, and libraries
+
+**** PyPUG :: Python Packaging User Guide
+:PROPERTIES:
+:guid: 8l68JlAsi1qC
+:dateAdded: 1471251725790000
+:lastModified: 1562966421784000
+:iconuri: https://packaging.python.org/_static/py.png
+:uri: https://packaging.python.org/
+:END:
+
+**** MDN :: Django Web Framework (Python)
+:PROPERTIES:
+:guid: PJz1zksm_keT
+:dateAdded: 1555525700196000
+:lastModified: 1562966273157000
+:iconuri: https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png
+:uri: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+:END:
+
+**** Ned Batchelder :: Python Names and Values
+:PROPERTIES:
+:guid: txBP20QznuRg
+:dateAdded: 1516393762470000
+:lastModified: 1562966365952000
+:iconuri: null
+:uri: https://nedbatchelder.com/text/names1.html
+:END:
+
+**** Call By Object :: The Python Calling Model
+:PROPERTIES:
+:guid: 1bmCczc3SGga
+:dateAdded: 1519325079100000
+:lastModified: 1562966707860000
+:iconuri: http://effbot.org/media/img/effbot.ico
+:uri: http://effbot.org/zone/call-by-object.htm
+:END:
+
+**** effbot :: Python Objects
+:PROPERTIES:
+:guid: Gmil9iIptl6y
+:dateAdded: 1519325095550000
+:lastModified: 1562966370897000
+:iconuri: http://effbot.org/media/img/effbot.ico
+:uri: http://effbot.org/zone/python-objects.htm
+:END:
+
+**** PyFormat :: Using % and .format() for Great Good
+:PROPERTIES:
+:guid: ICxYIpblB_Du
+:dateAdded: 1517305727290000
+:lastModified: 1562966612757000
+:iconuri: null
+:uri: https://pyformat.info/
+:END:
+
+**** PythonHive :: Python Decorator to Measure the Execution Time of Methods
+:PROPERTIES:
+:guid: BmnixZqe_qzu
+:dateAdded: 1518450746140000
+:lastModified: 1562966655833000
+:iconuri: https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png
+:uri: https://medium.com/pythonhive/python-decorator-to-measure-the-execution-time-of-methods-fa04cb6bb36d
+:END:
+Python Decorator to Measure the Execution Time of Methods
+
+**** Trey Hunner :: Why You Should be Using pathlib
+:PROPERTIES:
+:guid: 0mYijUSxWWEj
+:dateAdded: 1557897080226000
+:lastModified: 1562966263276000
+:iconuri: https://truthful.technology/apple-touch-icon.png
+:uri: https://treyhunner.com/2018/12/why-you-should-be-using-pathlib/
+:END:
+
+**** Anthony Shaw :: Python 3.7’s New Builtin Breakpoint — A Quick Tour
+:PROPERTIES:
+:guid: XoTOlpDlGybi
+:dateAdded: 1521294664520000
+:lastModified: 1562966605302000
+:iconuri: null
+:uri: https://medium.com/@anthonypjshaw/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c
+:END:
+
+**** Xtreak :: F-string Debugging in Python 3.8
+:PROPERTIES:
+:guid: YpbB4QeTI5B1
+:dateAdded: 1557463052233000
+:lastModified: 1562966265580000
+:iconuri: null
+:uri: https://tirkarthi.github.io/programming/2019/05/08/f-string-debugging.html
+:END:
+
+**** Krzysztof Zuraw :: Makefiles in Python Projects
+:PROPERTIES:
+:guid: tinAb8uFuKRe
+:dateAdded: 1560226647419000
+:lastModified: 1562966336709000
+:iconuri: https://krzysztofzuraw.com/icons/icon-512x512.png?v=eb44b51ee9d2b869ef621896c8882060
+:uri: https://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html
+:END:
+
+**** Hynek Schlawack :: Solid Python Deployments for Everybody
+:PROPERTIES:
+:guid: ILdZSW3G5gn4
+:dateAdded: 1510619602560000
+:lastModified: 1510619602560000
+:iconuri: null
+:uri: https://hynek.me/talks/python-deployments/
+:END:
+
+**** Hynek Schlawack :: Python Deployment Anti-Patterns
+:PROPERTIES:
+:guid: ge-nMuQnnMt0
+:dateAdded: 1510695882140000
+:lastModified: 1510695882140000
+:iconuri: null
+:uri: https://hynek.me/articles/python-deployment-anti-patterns/
+:END:
+
+**** Angelo Basile :: Using Jupyter Notebooks With a Virtual Environment
+:PROPERTIES:
+:guid: rP1FraLjigC7
+:dateAdded: 1522350009180000
+:lastModified: 1562966449872000
+:iconuri: null
+:uri: http://anbasile.github.io/programming/2017/06/25/jupyter-venv/
+:END:
+
+**** Simon Weber :: Python Logging Traps
+:PROPERTIES:
+:guid: vYDpa_dLUGdx
+:dateAdded: 1507964472970000
+:lastModified: 1507964472970000
+:iconuri: https://www.simonmweber.com/images/apple-touch-icon-114x114.png
+:uri: https://www.simonmweber.com/2014/11/24/python-logging-traps.html
+:END:
+
+**** Fang's coding note :: Good Logging Practice in Python
+:PROPERTIES:
+:guid: fgxnkZ7qn86N
+:dateAdded: 1507798010440000
+:lastModified: 1562966504395000
+:iconuri: https://fangpenlin.com/favicon-192x192.png
+:uri: https://fangpenlin.com/posts/2012/08/26/good-logging-practice-in-python/
+:END:
+
+**** Toptal :: Python Class Attributes: Examples of Variables
+:PROPERTIES:
+:guid: SB5W7oLN26HQ
+:dateAdded: 1560287029955000
+:lastModified: 1562966531948000
+:iconuri: https://bs-assets.toptal.io/blackfish-assets/public/base/images/favicons/toptal-blog-favicon114x114_a31d62.png
+:uri: https://www.toptal.com/python/python-class-attributes-an-overly-thorough-guide
+:END:
+
+**** github/vinta :: Awesome Python
+:PROPERTIES:
+:guid: e-q8kxTgbn_K
+:dateAdded: 1517345783590000
+:lastModified: 1534631933059000
+:iconuri: null
+:uri: https://github.com/vinta/awesome-python
+:END:
+Awesome Python -- A curated list of awesome Python frameworks, libraries, software and resources
+
+**** Trey Hunner :: range is Not an Iterator
+:PROPERTIES:
+:guid: jH-4-a7ddzNO
+:dateAdded: 1519885060180000
+:lastModified: 1562966741935000
+:iconuri: https://truthful.technology/apple-touch-icon.png
+:uri: http://treyhunner.com/2018/02/python-range-is-not-an-iterator/
+:END:
+
+**** Guido van Rossum :: The Fate of Reduce() in Python 3000
+:PROPERTIES:
+:guid: AywI9ZUs0S_P
+:dateAdded: 1511270176090000
+:lastModified: 1562966795075000
+:iconuri: null
+:uri: http://www.artima.com/weblogs/viewpost.jsp?thread=98196
+:END:
+
+**** /r/learnpython :: pyvenv vs virtualenv
+:PROPERTIES:
+:guid: WdyXNnGncF6D
+:dateAdded: 1534748820731000
+:lastModified: 1534748835841000
+:iconuri: https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png
+:uri: https://www.reddit.com/r/learnpython/comments/4hsudz/pyvenv_vs_virtualenv/
+:END:
+
+**** Python Programming  :: Context Managers
+:PROPERTIES:
+:guid: Ij4OIV21KXWE
+:dateAdded: 1538990824770000
+:lastModified: 1562966962947000
+:iconuri: https://en.wikibooks.org/static/favicon/wikibooks.ico
+:uri: https://en.wikibooks.org/wiki/Python_Programming/Context_Managers
+:END:
+
+**** buildwithpython :: Python Network Programming Playlist
+:PROPERTIES:
+:guid: N_xJhxXwp_JU
+:dateAdded: 1544388029277000
+:lastModified: 1562972199189000
+:iconuri: https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
+:uri: https://www.youtube.com/playlist?list=PLhTjy8cBISErYuLZUvVOYsR1giva2payF
+:END:
+
+** Web Dev
+*** Tools
+**** Mozilla :: Mozilla SSL Configuration Generator
+:PROPERTIES:
+:guid: DZAZikdHxwAg
+:dateAdded: 1493280358180000
+:lastModified: 1562967967950000
+:iconuri: https://mozilla.github.io/server-side-tls/favicon.ico
+:uri: https://mozilla.github.io/server-side-tls/ssl-config-generator/
+:END:
+
+**** Certbot :: Deploy Let's Encrypt Certificates for HTTPS
+:PROPERTIES:
+:guid: sV4jsdqozs9i
+:dateAdded: 1512984199840000
+:lastModified: 1562967975964000
+:iconuri: null
+:uri: https://certbot.eff.org/
+:END:
+Automatically enable HTTPS on your website with EFF's Certbot, deploying Let's Encrypt certificates.
+
+**** CSSmatic :: CSS Tools
+:PROPERTIES:
+:guid: nBG4ZYlfM0Zr
+:dateAdded: 1499963069140000
+:lastModified: 1562967117556000
+:iconuri: https://www.cssmatic.com/img/favicon.png
+:uri: http://www.cssmatic.com/
+:END:
+• Gradient Generator
+• Border Radius
+• Noise Texture
+• Box Shadow 
+   
+
+**** CSS3 Generator :: CSS Tools
+:PROPERTIES:
+:guid: AkPiNx1ONBdr
+:dateAdded: 1483124235225000
+:lastModified: 1562967112602000
+:iconuri: null
+:uri: http://css3generator.com/
+:END:
+
+**** Everything Fonts :: Font-Face Generator
+:PROPERTIES:
+:guid: RN2AJh_K2xhR
+:dateAdded: 1479272975536000
+:lastModified: 1562967131603000
+:iconuri: null
+:uri: https://everythingfonts.com/font-face
+:END:
+
+**** Am I Responsive? :: Visualize Website Responsiveness
+:PROPERTIES:
+:guid: 5G12PyrgZeRe
+:dateAdded: 1513078298030000
+:lastModified: 1562967245283000
+:iconuri: null
+:uri: http://ami.responsivedesign.is/#
+:END:
+
+**** Can I Use? :: Frontend Browser Support Tables
+:PROPERTIES:
+:guid: lBHIdpXlxnQH
+:dateAdded: 1501214927220000
+:lastModified: 1562967744653000
+:iconuri: https://caniuse.com/img/favicon-128.png
+:uri: http://caniuse.com/
+:END:
+"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+
+**** Resizer :: Visualize Website Responsiveness
+:PROPERTIES:
+:guid: tLAeaZ6SBKQG
+:dateAdded: 1513078307020000
+:lastModified: 1562967494486000
+:iconuri: https://material.io/tools/resizer/static/images/resizer-192x192.png
+:uri: https://material.io/resizer/#
+:END:
+
+**** BuiltWith :: Technology Lookup for Websites
+:PROPERTIES:
+:guid: o39z_XYi66Lb
+:dateAdded: 1503041313680000
+:lastModified: 1562967504336000
+:iconuri: https://builtwith.com/apple-touch-icon.png
+:uri: https://builtwith.com/
+:END:
+
+*** Resources
+**** Let's Encrypt :: Free SSL/TLS Certificates
+:PROPERTIES:
+:guid: vKd_rhF6EKzr
+:dateAdded: 1512984212660000
+:lastModified: 1562967707211000
+:iconuri: null
+:uri: https://letsencrypt.org/
+:END:
+
+**** Templated :: Free Responsive Site Templates
+:PROPERTIES:
+:guid: ezR064xgChr7
+:dateAdded: 1511535908260000
+:lastModified: 1562967870924000
+:iconuri: https://templated.co/assets/icons/apple-touch-icon-precomposed.png
+:uri: https://templated.co/
+:END:
+
+**** Emmet :: Emmet Cheat Sheet
+:PROPERTIES:
+:guid: RxRP4VbRXuM0
+:dateAdded: 1516889038950000
+:lastModified: 1562967676566000
+:iconuri: https://docs.emmet.io/-/3755353140/favicon.ico
+:uri: https://docs.emmet.io/cheat-sheet/
+:END:
+
+**** Brunch :: JS Application Skeleton Boilerplates
+:PROPERTIES:
+:guid: Rf_eXhrhjcPi
+:dateAdded: 1493055912995000
+:lastModified: 1553407109661000
+:iconuri: null
+:uri: http://brunch.io/skeletons
+:END:
+
+**** Webpack :: Webpack Module Bundler
+:PROPERTIES:
+:guid: EP7ak7GBFgcI
+:dateAdded: 1490969101875000
+:lastModified: 1553407111833000
+:iconuri: https://webpack.github.io/assets/favicon.png
+:uri: https://webpack.github.io/
+:END:
+
+**** github/sorrycc :: Awesome JavaScript
+:PROPERTIES:
+:guid: 0qC2U_ykn_9j
+:dateAdded: 1517359194550000
+:lastModified: 1553407115506000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/sorrycc/awesome-javascript#data-visualization
+:END:
+A collection of awesome browser-side JavaScript libraries, resources and shiny things.
+
+**** HTML5 UP! :: Responsive HTML5 and CSS3 Site Templates
+:PROPERTIES:
+:guid: ziXGtZEvt5Lx
+:dateAdded: 1511535891090000
+:lastModified: 1511535891090000
+:iconuri: https://html5up.net/assets/icons/apple-touch-icon-precomposed.png
+:uri: https://html5up.net/
+:END:
+
+**** Hover.css :: A Collection of CSS3 Powered Hover Effects
+:PROPERTIES:
+:guid: QdTDycSdVKqb
+:dateAdded: 1473319008306000
+:lastModified: 1562967817281000
+:iconuri: null
+:uri: http://ianlunn.github.io/Hover/
+:END:
+
+**** Bootswatch :: Free Bootstrap Themes
+:PROPERTIES:
+:guid: UPXcyKXvPRTA
+:dateAdded: 1511535898990000
+:lastModified: 1562967934194000
+:iconuri: null
+:uri: https://bootswatch.com/
+:END:
+
+*** Library
+**** HTML & CSS IS HARD :: A Friendly Web Development Tutorial for Complete Beginners
+:PROPERTIES:
+:guid: Mclk04U0zXh3
+:dateAdded: 1510080739160000
+:lastModified: 1562968121970000
+:iconuri: https://internetingishard.com/img/favicons/favicon-192-a6e5b6.png
+:uri: https://internetingishard.com/html-and-css/
+:END:
+
+**** CSS Tricks :: Web Development Articles
+:PROPERTIES:
+:guid: lcDKJSHa6VOX
+:dateAdded: 1481539194111000
+:lastModified: 1562968072804000
+:iconuri: https://css-tricks.com/apple-touch-icon.png
+:uri: https://css-tricks.com/
+:END:
+
+**** Hongkiat :: Web Development: The 10 Coding Antipatterns You Must Avoid
+:PROPERTIES:
+:guid: GK8TzGzqHks6
+:dateAdded: 1479030996077000
+:lastModified: 1479030996077000
+:iconuri: https://assets.hongkiat.com/uploads/cropped-hkdc-avatar-192x192.png
+:uri: http://www.hongkiat.com/blog/code-optimization-coding-antipatterns/
+:END:
+
+**** Una Kravets :: 3 CSS Grid Features That Make My Heart Flutter
+:PROPERTIES:
+:guid: YOp9E39phKgu
+:dateAdded: 1490889138438000
+:lastModified: 1562968135148000
+:iconuri: null
+:uri: https://una.im/css-grid/
+:END:
+
+**** Brad Frost :: Atomic Design Methodology
+:PROPERTIES:
+:guid: icrddyeeF-2J
+:dateAdded: 1479025789003000
+:lastModified: 1562968193047000
+:iconuri: null
+:uri: http://bradfrost.com/blog/post/atomic-web-design/
+:END:
+
+**** Sitepoint :: BEM and SMACSS: Advice From Developers Who've Been There
+:PROPERTIES:
+:guid: LrrH9Ninz7F_
+:dateAdded: 1478977387379000
+:lastModified: 1562968214361000
+:iconuri: https://www.sitepoint.com/wp-content/themes/sitepoint/assets/images/apple-touch-icon-144x144-precomposed.png
+:uri: https://www.sitepoint.com/bem-smacss-advice-from-developers/
+:END:
+BEM and SMACSS: Advice From Developers Who've Been There
+
+** Testing
+**** Dev.bg :: Първи стъпки в софтуерното тестване
+:PROPERTIES:
+:guid: dWnPglY8lgm5
+:dateAdded: 1522428151790000
+:lastModified: 1562965692268000
+:iconuri: null
+:uri: https://dev.bg/%d0%bf%d1%8a%d1%80%d0%b2%d0%b8-%d1%81%d1%82%d1%8a%d0%bf%d0%ba%d0%b8-%d0%b2-%d1%81%d0%be%d1%84%d1%82%d1%83%d0%b5%d1%80%d0%bd%d0%be%d1%82%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b2%d0%b0%d0%bd%d0%b5/
+:END:
+
+** Security
+** Networking
+**** fossbytes :: What Is MINIX? Is The World's Most Popular OS A Threat?
+:PROPERTIES:
+:guid: YH6iZOsc3qjC
+:dateAdded: 1555859812182000
+:lastModified: 1562961788614000
+:iconuri: https://fossbytes.com/wp-content/uploads/2016/07/fossbytes-top-logo.png
+:uri: https://fossbytes.com/minix-worlds-most-popular-os-threat/
+:END:
+
+**** schd.ws :: Replace UEFI with Linux Presentation
+:PROPERTIES:
+:guid: y-MQ1PQ-pOcP
+:dateAdded: 1555860245350000
+:lastModified: 1562970959923000
+:iconuri: null
+:uri: https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf
+:END:
+
+**** Basic Networking Knowledge :: Blog About Networking
+:PROPERTIES:
+:guid: fmsRRZ6XZBOv
+:dateAdded: 1522311338270000
+:lastModified: 1562965002305000
+:iconuri: null
+:uri: http://basicnetworkingknowledge.blogspot.bg/
+:END:
+
+**** Sockets :: Beej's Guide to Network Programming
+:PROPERTIES:
+:guid: -OLUwRE1F1Qx
+:dateAdded: 1499579176815000
+:lastModified: 1562965032825000
+:iconuri: https://beej.us/guide/favicon.gif
+:uri: http://beej.us/guide/bgnet/
+:END:
+
+**** Practical Networking :: Practical Network Engineering Knowledge
+:PROPERTIES:
+:guid: f_4szxrsne4L
+:dateAdded: 1527405573770000
+:lastModified: 1562965014968000
+:iconuri: https://www.practicalnetworking.net/wp-content/uploads/2018/07/cropped-Logo-PN-square-192x192.png
+:uri: http://www.practicalnetworking.net/stand-alone/vlans/
+:END:
+
+**** Medium :: The Most Expensive Lesson Of My Life: Details of SIM Port Hack
+:PROPERTIES:
+:guid: 9WERUbuxWHQu
+:dateAdded: 1558447031033000
+:lastModified: 1562961876936000
+:iconuri: https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png
+:uri: https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124?sk=4c29b27bacb2eff038ec8fe4d40cd615
+:END:
+
+**** Security Engineering :: A Guide to Building Dependable Distributed Systems
+:PROPERTIES:
+:guid: Z99ekw17xx2g
+:dateAdded: 1509446626130000
+:lastModified: 1562961889603000
+:iconuri: null
+:uri: http://www.cl.cam.ac.uk/~rja14/book.html
+:END:
+
+**** Scott's Weblog :: Using an SSH Bastion Host
+:PROPERTIES:
+:guid: nR4ExMuqQnqd
+:dateAdded: 1517497377970000
+:lastModified: 1562964902937000
+:iconuri: https://blog.scottlowe.org/assets/apple-touch-icon-144-precomposed.png
+:uri: https://blog.scottlowe.org/2015/11/21/using-ssh-bastion-host/
+:END:
+
+**** Practical Networking :: Cryptography
+:PROPERTIES:
+:guid: FhbufSGcr-WF
+:dateAdded: 1527411838170000
+:lastModified: 1562961905426000
+:iconuri: https://www.practicalnetworking.net/wp-content/uploads/2018/07/cropped-Logo-PN-square-192x192.png
+:uri: http://www.practicalnetworking.net/series/cryptography/cryptography/
+:END:
+
+
+
+* Management & Documentation
+** Tools
+**** draw.io :: Online Tool for Charts, UML Diagrams, UI Mocking
+:PROPERTIES:
+:guid: GDVkEHr4a5G9
+:dateAdded: 1561052874210000
+:lastModified: 1562960616352000
+:iconuri: https://www.draw.io/images/apple-touch-icon.png
+:uri: https://www.draw.io/
+:END:
+
+**** Remarkise :: Render your Markdown as Remark Slides
+:PROPERTIES:
+:guid: gA1qlkiUgsZJ
+:dateAdded: 1553369095734000
+:lastModified: 1562960652151000
+:iconuri: null
+:uri: https://remarkjs.com/remarkise
+:END:
+
+**** TablesGenerator :: Table Generator for Markdown, HTML, LaTeX
+:PROPERTIES:
+:guid: ND92987-zw1k
+:dateAdded: 1545654213675000
+:lastModified: 1562960726554000
+:iconuri: https://www.tablesgenerator.com/static/img/favicon.png
+:uri: https://www.tablesgenerator.com/markdown_tables
+:END:
+
+**** rsted :: Online ReST editor
+:PROPERTIES:
+:guid: 2B9tMd2PZjUq
+:dateAdded: 1529673726170000
+:lastModified: 1553405041133000
+:iconuri: null
+:uri: http://rst.ninjs.org/#
+:END:
+
+** Resources
+**** Allen Holub :: UML Quick Reference
+:PROPERTIES:
+:guid: uT5CHb0-znXQ
+:dateAdded: 1527338090130000
+:lastModified: 1562964476385000
+:iconuri: https://holub.com/wp/wp-content/uploads/2016/06/HolubLogo-190x190-1.jpg
+:uri: https://holub.com/uml/
+:END:
+
+**** UML-Diagrams :: UML Diagrams with Examples
+:PROPERTIES:
+:guid: S-wFrsdRnoHD
+:dateAdded: 1545933805679000
+:lastModified: 1562964595043000
+:iconuri: null
+:uri: https://www.uml-diagrams.org/use-case-diagrams-examples.html
+:END:
+
+**** Project Management Docs :: Document Templates for Project Management
+:PROPERTIES:
+:guid: 0DCVjKYPrs6r
+:dateAdded: 1562962520031000
+:lastModified: 1562962610483000
+:iconuri: https://www.projectmanagementdocs.com/wp-content/uploads/2018/07/cropped-favicon-192x192.png
+:uri: https://www.projectmanagementdocs.com/
+:END:
+
+**** MyPM :: Document Templates for Project Management
+:PROPERTIES:
+:guid: JIHL3B6WUFC-
+:dateAdded: 1562962708020000
+:lastModified: 1562962724119000
+:iconuri: null
+:uri: https://www.mypmllc.com/project-management-resources/free-project-management-templates/
+:END:
+
+**** documize/document-templates :: Document Templates
+:PROPERTIES:
+:guid: 4ddfnurtGpdY
+:dateAdded: 1545933271458000
+:lastModified: 1562962434817000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/documize/document-templates
+:END:
+
+**** Beautiful Docs :: Useful, Well-Written, and Otherwise Beautiful Documentation
+:PROPERTIES:
+:guid: lz9UDmr_wi7J
+:dateAdded: 1544207310966000
+:lastModified: 1562962574101000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/PharkMillups/beautiful-docs
+:END:
+
+**** codelittinc/incubator-resources :: Processes, Policies, and Tools for Startups and Product Teams
+:PROPERTIES:
+:guid: v8usIA-0C8kh
+:dateAdded: 1510423359922000
+:lastModified: 1562962456839000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/codelittinc/incubator-resources
+:END:
+
+**** USC :: Types of Research Designs
+:PROPERTIES:
+:guid: UswcOP3bh8-M
+:dateAdded: 1546924169104000
+:lastModified: 1562962373572000
+:iconuri: http://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png
+:uri: http://libguides.usc.edu/writingguide/researchdesigns
+:END:
+
+** Library
+**** Melissa McEwen :: Who Killed The Junior Developer?
+:PROPERTIES:
+:guid: 1Ppz63hjKxtx
+:dateAdded: 1518674484390000
+:lastModified: 1537330798574000
+:iconuri: https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png
+:uri: https://medium.com/@melissamcewen/who-killed-the-junior-developer-33e9da2dc58c
+:END:
+
+**** Matteo Madeddu :: The Good Employee, A Story About How You Can Explain Modern Companies with Graph Theory
+:PROPERTIES:
+:guid: HoUtpjQjm39o
+:dateAdded: 1562934451697000
+:lastModified: 1562971112268000
+:iconuri: https://madeddu.xyz/favicon/android-icon-192x192.png
+:uri: https://madeddu.xyz/posts/im-still-learning/
+:END:
+
+**** sphinxdoc-test :: Workflow for Sphinx and GitHub Pages
+:PROPERTIES:
+:guid: g75XszCiniAc
+:dateAdded: 1529264170790000
+:lastModified: 1562971130242000
+:iconuri: null
+:uri: https://daler.github.io/sphinxdoc-test/includeme.html
+:END:
+Publishing sphinx-generated docs on github — sphinxdoc-test v0.1 documentation
+
+**** Computerworld :: The Unspoken Truth About Managing Geeks
+:PROPERTIES:
+:guid: eXMgM9ZBYzTi
+:dateAdded: 1521866773940000
+:lastModified: 1562962132661000
+:iconuri: https://idge.staticworld.net/ctw/computerworld-logo144x144.png
+:uri: https://www.computerworld.com/article/2527153/it-management/opinion--the-unspoken-truth-about-managing-geeks.html
+:END:
+
+** Emacs
+**** Orgmode :: David O'Toole Org Tutorial
+:PROPERTIES:
+:guid: YqLUYNZ5QunW
+:dateAdded: 1483275644933000
+:lastModified: 1562969182125000
+:iconuri: https://orgmode.org/org-mode-unicorn.ico
+:uri: http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html
+:END:
+
+**** Sacha Chua :: Some Tips for Learning Org-mode for Emacs
+:PROPERTIES:
+:guid: sujKgWWtcdTT
+:dateAdded: 1485547741658000
+:lastModified: 1562969221344000
+:iconuri: null
+:uri: http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/
+:END:
+Some tips for learning Org Mode for Emacs 
+
+**** Orgmode :: Org Syntax Draft
+:PROPERTIES:
+:guid: S42MT40gzSaD
+:dateAdded: 1496391749425000
+:lastModified: 1562968815037000
+:iconuri: https://orgmode.org/org-mode-unicorn.ico
+:uri: http://orgmode.org/worg/dev/org-syntax.html
+:END:
+
+**** Orgmode :: Org Mode Reference Sheet
+:PROPERTIES:
+:guid: MYXt225bOqg1
+:dateAdded: 1479412009615000
+:lastModified: 1562968795464000
+:iconuri: null
+:uri: http://orgmode.org/orgcard.pdf
+:END:
+cheat sheet
+
+**** ehneilsen.net :: Org-mode Cookbook and Examples
+:PROPERTIES:
+:guid: QRR0wl56d36b
+:dateAdded: 1496395209985000
+:lastModified: 1562968895941000
+:iconuri: null
+:uri: http://ehneilsen.net/notebook/orgExamples/org-examples.html
+:END:
+
+**** Orgmode :: Org Mode Export settings
+:PROPERTIES:
+:guid: jGXuRpP30dME
+:dateAdded: 1508940026138000
+:lastModified: 1562968873496000
+:iconuri: null
+:uri: http://orgmode.org/manual/Export-settings.html#Export-settings
+:END:
+
+**** hartwork.org :: Beamer Theme Matrix
+:PROPERTIES:
+:guid: RTSA0om327wJ
+:dateAdded: 1542924964380000
+:lastModified: 1562969073259000
+:iconuri: null
+:uri: https://hartwork.org/beamer-theme-matrix/
+:END:
+
+**** org-html-themes :: Export Org-mode Documents to HTML
+:PROPERTIES:
+:guid: KJBUSTFDTKJZ
+:dateAdded: 1501773528648000
+:lastModified: 1562968926502000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/fniessen/org-html-themes
+:END:
+How to export Org mode files into awesome HTML in 2 minutes
+
+**** Rainer König :: Org-mode Advanced exporting
+:PROPERTIES:
+:guid: -i51akBSVH1s
+:dateAdded: 1542273862311000
+:lastModified: 1562968780767000
+:iconuri: https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
+:uri: https://www.youtube.com/watch?v=cTrizroQeL8&index=27&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE
+:END:
+
+**** Orgmode :: Writing Beamer Presentations in Org-mode
+:PROPERTIES:
+:guid: aTrjtYjTJrmy
+:dateAdded: 1542954645490000
+:lastModified: 1562968820470000
+:iconuri: https://orgmode.org/org-mode-unicorn.ico
+:uri: https://orgmode.org/worg/exporters/beamer/tutorial.html
+:END:
+
+**** The Changelog :: Documents and Presentations with Org-mode
+:PROPERTIES:
+:guid: 4XKpWBfkY2IM
+:dateAdded: 1542273828976000
+:lastModified: 1562968638205000
+:iconuri: null
+:uri: https://changelog.complete.org/archives/9900-emacs-5-documents-and-presentations-with-org-mode
+:END:
+
+**** thi.ng/org-spec :: Org-mode Skeleton for Technical Specifications
+:PROPERTIES:
+:guid: kqD74bkd2vta
+:dateAdded: 1508840044390000
+:lastModified: 1562968733383000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/thi-ng/org-spec
+:END:
+ Org-mode skeleton for technical specifications & HTML theme
+
+**** fniessen :: Org Babel Reference Card
+:PROPERTIES:
+:guid: eNMcrfvNtRGj
+:dateAdded: 1530092837630000
+:lastModified: 1562968583168000
+:iconuri: https://org-babel.readthedocs.io/en/latest/img/favicon.ico
+:uri: https://org-babel.readthedocs.io/en/latest/
+:END:
+
+**** fniessen :: Org Beamer Reference Card
+:PROPERTIES:
+:guid: yKt6eYnUhzTG
+:dateAdded: 1542960818726000
+:lastModified: 1562969157490000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/fniessen/refcard-org-beamer
+:END:
+
+**** fniessen :: Shared Macros for Org-mode
+:PROPERTIES:
+:guid: Z0TeeiBVzVFq
+:dateAdded: 1510123599310000
+:lastModified: 1562968987466000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/fniessen/org-macros
+:END:
+
+**** Orgmode :: Google Calendar Synchronization
+:PROPERTIES:
+:guid: aY8SbT8qCXXm
+:dateAdded: 1486128193653000
+:lastModified: 1562968831264000
+:iconuri: https://orgmode.org/org-mode-unicorn.ico
+:uri: http://orgmode.org/worg/org-tutorials/org-google-sync.html
+:END:
+
+**** org-gtd :: Organize Your Life in Plain Text
+:PROPERTIES:
+:guid: IenS5qeZ_WKW
+:dateAdded: 1527409592670000
+:lastModified: 1562969460956000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/et2010/org-gtd/blob/public/org-mode.org
+:END:
+
+**** Emacs Cafe :: Orgmode for GTD
+:PROPERTIES:
+:guid: A6FxL6bpbq5I
+:dateAdded: 1502409489340000
+:lastModified: 1562968904528000
+:iconuri: https://emacs.cafe/favicon.png
+:uri: https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html
+:END:
+
+**** Emacslife :: A Baby Steps Guide to Managing Your Tasks with Org
+:PROPERTIES:
+:guid: CoCoAn6idlBx
+:dateAdded: 1483272255908000
+:lastModified: 1562969217911000
+:iconuri: null
+:uri: http://emacslife.com/baby-steps-org.html
+:END:
+
+**** Tristan Hume :: Configuring Spacemacs: A Tutorial
+:PROPERTIES:
+:guid: 4Imc5SWspP0a
+:dateAdded: 1486128494733000
+:lastModified: 1562969570180000
+:iconuri: http://thume.ca/favicon.png
+:uri: http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/
+:END:
+Configuring Spacemacs: A Tutorial - Tristan Hume
+
+**** All The Icons :: Icons within Emacs
+:PROPERTIES:
+:guid: -1M07VY-83IH
+:dateAdded: 1486157543791000
+:lastModified: 1562969569096000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/domtronn/all-the-icons.el
+:END:
+An utility package to collect various Icon Fonts and propertize them within Emacs.
+
+**** Modern Emacs :: Mathematical Notation in Emacs
+:PROPERTIES:
+:guid: FWy6rA_MgYfk
+:dateAdded: 1500718850482000
+:lastModified: 1562969567495000
+:iconuri: http://www.modernemacs.com/img/apple-touch-icon.png
+:uri: http://www.modernemacs.com/post/prettify-mode/
+:END:
+
+**** web-mode :: HTML Template Editing for Emacs
+:PROPERTIES:
+:guid: d8GPjuU-UM4l
+:dateAdded: 1481658263906000
+:lastModified: 1562969565688000
+:iconuri: http://web-mode.org/favicon.png
+:uri: http://web-mode.org/
+:END:
+
+**** EmacsWiki :: Python Programming in Emacs
+:PROPERTIES:
+:guid: NaQltd_KCj2K
+:dateAdded: 1535054227913000
+:lastModified: 1562969563420000
+:iconuri: null
+:uri: https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
+:END:
+
+**** Deciphering Glyph :: Your Text Editor Is Malware
+:PROPERTIES:
+:guid: Ffk82o_crurp
+:dateAdded: 1517609430310000
+:lastModified: 1517609430310000
+:iconuri: null
+:uri: https://glyph.twistedmatrix.com/2015/11/editor-malware.html
+:END:
+
+**** ergoemacs :: Emacs Unicode Tutorial
+:PROPERTIES:
+:guid: 3oX9CuZ-3w-n
+:dateAdded: 1491316358451000
+:lastModified: 1491316358451000
+:iconuri: null
+:uri: http://ergoemacs.org/emacs/emacs_n_unicode.html
+:END:
+
+**** rakan.me :: Code Navigation in Emacs
+:PROPERTIES:
+:guid: RtGjnhlr3sOC
+:dateAdded: 1506898589790000
+:lastModified: 1506898589790000
+:iconuri: null
+:uri: http://rakan.me/emacs/code-navigation-in-emacs/
+:END:
+
+**** Hangaroundtheweb :: A Guide to Create tmux like Custom Layouts in Spacemacs
+:PROPERTIES:
+:guid: VoYK7__tYKrV
+:dateAdded: 1561230640658000
+:lastModified: 1562970519051000
+:iconuri: null
+:uri: http://hangaroundtheweb.com/2019/06/a-guide-to-create-tmux-like-custom-layouts-in-spacemacs/
+:END:
+
+
 * Design
+** Color
 *** Tools
+**** Adobe Color Wheel :: Color Palette Designer
+:PROPERTIES:
+:guid: 7bPvx7LBDYbJ
+:dateAdded: 1472665154184000
+:lastModified: 1562952606866000
+:iconuri: https://color.adobe.com/apple-touch-icon-144x144-precomposed.png
+:uri: https://color.adobe.com/create/color-wheel/?base=0&rule=Complementary&selected=0&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.2823529411764706,0.4627450980392157,0.2627450980392157,0.3966071719481714,0.7627450980392156,0.3568095712861415,0.5342004053199652,0.7627450980392156,0.5093585908939847,0.7627450980392156,0.28053506148221996,0.5894016208454993,0.4627450980392157,0.2627450980392157,0.390849673202604&swatchOrder=0,1,2,3,4
+:END:
+
+**** ColorExplorer :: Color Palette Designer
+:PROPERTIES:
+:guid: 546EzeGzIHin
+:dateAdded: 1501011630200000
+:lastModified: 1562952615073000
+:iconuri: null
+:uri: http://www.colorexplorer.com/colorpicker.aspx
+:END:
+ColorExplorer is a free online toolbox for designing and working with color palettes.
+
+**** Color Scheme Designer :: Color Palette Designer
+:PROPERTIES:
+:guid: 77GS5RDKHPrw
+:dateAdded: 1500448408590000
+:lastModified: 1562952621516000
+:iconuri: null
+:uri: http://colorschemedesigner.com/csd-3.5/#
+:END:
+
+**** DeGraeve.com :: Generate Color Palette from Image
+:PROPERTIES:
+:guid: Y6kglWqCVkoz
+:dateAdded: 1499952343120000
+:lastModified: 1562952719739000
+:iconuri: null
+:uri: http://www.degraeve.com/color-palette/index.php
+:END:
+
+**** Color Palette FX :: Generate Color Palette from Image
+:PROPERTIES:
+:guid: v3JCdDksASyH
+:dateAdded: 1534685625710000
+:lastModified: 1562952743479000
+:iconuri: http://www.palettefx.com/_resrc/images/favicon.png
+:uri: http://www.palettefx.com/
+:END:
+
+**** Chroma.js :: Color Scale Generator
+:PROPERTIES:
+:guid: aNtvGLK2a_tG
+:dateAdded: 1545045754612000
+:lastModified: 1562952652878000
+:iconuri: https://gka.github.io/palettes/favicon.png
+:uri: https://gka.github.io/palettes/#diverging|c0=darkred,deeppink,lightyellow|c1=lightyellow,lightgreen,teal|steps=13|bez0=1|bez1=1|coL0=1|coL1=1
+:END:
+
+**** Ramp Generator :: Color Scale Generator
+:PROPERTIES:
+:guid: AOzWIOzClVBP
+:dateAdded: 1559123340925000
+:lastModified: 1562952643493000
+:iconuri: null
+:uri: https://rampgenerator.com/
+:END:
+
+**** RGB Color Gradient Maker :: Color Ramp Between Two Colors
+:PROPERTIES:
+:guid: yGwKZlnfDyPG
+:dateAdded: 1545693681627000
+:lastModified: 1562953135523000
+:iconuri: null
+:uri: http://www.perbang.dk/rgbgradient/
+:END:
+
+**** ColorBrewer :: Color Scale Generator for Maps
+:PROPERTIES:
+:guid: 7uVJX2CfB7gq
+:dateAdded: 1501846063090000
+:lastModified: 1562952774480000
+:iconuri: null
+:uri: http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+:END:
+
+**** tristen.ca :: Color Scale Generator for Data
+:PROPERTIES:
+:guid: ngWWfSEVK2Rl
+:dateAdded: 1533179490956000
+:lastModified: 1562952881951000
+:iconuri: http://tristen.ca/hcl-picker/img/favicon.png
+:uri: http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062
+:END:
+
+**** iWantHue :: Color Scale Generator for Data Scientists
+:PROPERTIES:
+:guid: IaAnktQOzJ1j
+:dateAdded: 1533185075913000
+:lastModified: 1562952985376000
+:iconuri: null
+:uri: http://tools.medialab.sciences-po.fr/iwanthue/index.php
+:END:
+
+**** codecrafted :: Random Material Design Generator
+:PROPERTIES:
+:guid: 4pkkxxN59Vj8
+:dateAdded: 1499952141570000
+:lastModified: 1562952936988000
+:iconuri: https://codecrafted.net/static/rm/favicon.ico
+:uri: https://codecrafted.net/randommaterial/
+:END:
+
+**** Viz Palette :: See Your Color Scales in Action
+:PROPERTIES:
+:guid: Rv_8GmJiJjFr
+:dateAdded: 1533185002942000
+:lastModified: 1562953021065000
+:iconuri: null
+:uri: http://projects.susielu.com/viz-palette
+:END:
+
+**** Coblis :: Color Blindness Simulator
+:PROPERTIES:
+:guid: K1kOIN87fVpS
+:dateAdded: 1533185176750000
+:lastModified: 1533185176750000
+:iconuri: https://www.color-blindness.com/wp-content/images/favicon1.ico
+:uri: https://www.color-blindness.com/coblis-color-blindness-simulator/
+:END:
+
+**** Name that Color :: Get the Nearest Named Color of a Hex Value
+:PROPERTIES:
+:guid: vHLbgIfegGFP
+:dateAdded: 1537207309062000
+:lastModified: 1562953079104000
+:iconuri: null
+:uri: http://chir.ag/projects/name-that-color
+:END:
+
 *** Resources
+**** Color Hunt :: Color Palette Library
+:PROPERTIES:
+:guid: TRVXFm_3gE_g
+:dateAdded: 1505859751760000
+:lastModified: 1562953156566000
+:iconuri: https://colorhunt.co/img/favicon.gif
+:uri: http://colorhunt.co/
+:END:
+Color Hunt is an open collection of beautiful color palettes founded on August 2015 by Gal Shir. Color Hunt began as a side project to share personal color palettes between a group of designer friends, and is now a popular resource used daily by thousands of people all over the world. 
+
+**** COLOURlovers :: Color Palette Library
+:PROPERTIES:
+:guid: qVhfGxGYu8nZ
+:dateAdded: 1471929345980000
+:lastModified: 1562953161656000
+:iconuri: https://static.colourlovers.com/images/v4.0/_/misc/apple-touch-icon.png
+:uri: http://www.colourlovers.com/palettes/most-loved/all-time/meta?page=2
+:END:
+COLOURlovers is a creative community where people from around the world create
+and share colors, palettes and patterns, discuss the latest trends and explore colorful
+articles... All in the spirit of love.
+
+**** ColorDrop :: Color Palette Library
+:PROPERTIES:
+:guid: qJwOTnkY40zp
+:dateAdded: 1533185745235000
+:lastModified: 1562953187668000
+:iconuri: https://colordrop.io/img/favicon-194x194.png
+:uri: https://colordrop.io/
+:END:
+
+**** Coolors.co :: Color Palette Library
+:PROPERTIES:
+:guid: xAecMGBMyIHB
+:dateAdded: 1533186100368000
+:lastModified: 1562953209536000
+:iconuri: https://coolors.co/assets/images/favicon.png
+:uri: https://coolors.co/browser/latest/1
+:END:
+
+**** LOL Colors :: Curated Color Palette Library
+:PROPERTIES:
+:guid: x4kLhFXIEPiv
+:dateAdded: 1533186138350000
+:lastModified: 1562953223219000
+:iconuri: https://www.webdesignrankings.com/resources/lolcolors/assets/apple-touch-icon-180x180-48f1de9e6b550647983c1342e575d663cda7c09831f879cd8eaf99d579da2a98.png
+:uri: https://www.webdesignrankings.com/resources/lolcolors/
+:END:
+
+**** Designspiration :: Design Inspiration
+:PROPERTIES:
+:guid: CyirDgqUUpKQ
+:dateAdded: 1533186202691000
+:lastModified: 1562953248632000
+:iconuri: https://s.dspncdn.com/a1/webapp/img/favicons/apple-touch-icon-144x144.png
+:uri: https://www.designspiration.net/
+:END:
+
+**** Dribbble :: Browse Designs by Color
+:PROPERTIES:
+:guid: G4AkeLnGRpUU
+:dateAdded: 1533186222668000
+:lastModified: 1562953337739000
+:iconuri: https://cdn.dribbble.com/assets/dribbble-ball-192-ec064e49e6f63d9a5fa911518781bee0c90688d052a038f8876ef0824f65eaf2.png
+:uri: https://dribbble.com/colors/c71f16?percent=60
+:END:
+
+**** Wes Anderson Palettes :: Palette Collection Inspired by Photos
+:PROPERTIES:
+:guid: 9lgL6RGmdSDG
+:dateAdded: 1533185545029000
+:lastModified: 1562953401928000
+:iconuri: https://66.media.tumblr.com/avatar_8136f25343ce_128.pnj
+:uri: https://wesandersonpalettes.tumblr.com/
+:END:
+
+**** Aminus3 :: Pictures / Images by Color
+:PROPERTIES:
+:guid: f3tXq-sdwun9
+:dateAdded: 1473105993181000
+:lastModified: 1562954990985000
+:iconuri: null
+:uri: https://www.aminus3.com/color/
+:END:
+Featured by Color:
+
+At Aminus3, we love color. Packed within every picture is a collection of pretty pixels varying in shades of red, green and blue. Every time an Aminus3 photographer uploads an image, our crack team of palette pondering robot scientists use our patent pending three pass scan technique to create a magical color scheme for all to enjoy.
+
 *** Library
+**** Itten Johannes :: The Elements of Color
+:PROPERTIES:
+:guid: vfEyYEllZ6JM
+:dateAdded: 1533185633004000
+:lastModified: 1533185633004000
+:iconuri: null
+:uri: https://monoskop.org/images/4/46/Itten_Johannes_The_Elements_of_Color.pdf
+:END:
+
+**** Werner’s Nomenclature of Colours :: A project based on the fundamental design work
+:PROPERTIES:
+:guid: W0xwMtxzckO6
+:dateAdded: 1536629499767000
+:lastModified: 1553084562152000
+:iconuri: https://www.c82.net/images/werner/apple-touch-icon.png
+:uri: https://www.c82.net/werner/#preface
+:END:
+
+** Composition
+*** Library
+**** Marvin Bartel :: Composition and Design Principles
+:PROPERTIES:
+:guid: GN8lSrzVBbB9
+:dateAdded: 1475411465978000
+:lastModified: 1562953505092000
+:iconuri: null
+:uri: https://www.goshen.edu/art/ed/Compose.htm
+:END:
+
+**** Sixrevisions :: Gestalt Principles Applied in Design
+:PROPERTIES:
+:guid: QdOWJh4lKLcE
+:dateAdded: 1475410874528000
+:lastModified: 1562953509575000
+:iconuri: null
+:uri: http://sixrevisions.com/web_design/gestalt-principles-applied-in-design/
+:END:
+
+**** Creative Bloq :: 12 Pro Tips to Improve Your Artistic Composition
+:PROPERTIES:
+:guid: ppUMurCAHY83
+:dateAdded: 1475411516225000
+:lastModified: 1562953491209000
+:iconuri: https://vanilla.futurecdn.net/creativebloq/122118/apple-touch-icon.png
+:uri: http://www.creativebloq.com/digital-art/tips-composition-31514496
+:END:
+
+**** Ultimate Photo Tips :: Photography Rules of Composition: Visual Weight
+:PROPERTIES:
+:guid: Iiu_-UdzY7R2
+:dateAdded: 1475411051313000
+:lastModified: 1475411051313000
+:iconuri: null
+:uri: http://www.ultimate-photo-tips.com/photography-rules-of_composition.html
+:END:
+
+** Typography
+*** Tools
+**** Programming Fonts :: Test Drive Your Next IDE Font
+:PROPERTIES:
+:guid: zLoZNAoFqYF3
+:dateAdded: 1548080105735000
+:lastModified: 1562953564043000
+:iconuri: https://app.programmingfonts.org/favicon.png
+:uri: http://app.programmingfonts.org/#bitstream-vera
+:END:
+
+*** Resources
+**** On Snot and Fonts :: An Encyclopedic Treatment of Typefaces
+:PROPERTIES:
+:guid: BYz76Sj3RH-r
+:dateAdded: 1535444374394000
+:lastModified: 1562954143554000
+:iconuri: http://luc.devroye.org/moose01.ico
+:uri: http://luc.devroye.org/fonts.html
+:END:
+
+**** TypeTerms :: Typographic Terms Cheat Sheet
+:PROPERTIES:
+:guid: ckApUcM1Ama6
+:dateAdded: 1475078612399000
+:lastModified: 1562953631284000
+:iconuri: null
+:uri: https://www.supremo.tv/typeterms/
+:END:
+Type Terms is the perfect tool for designers to learn the basics of typographic terminology. If you are new to typography or here to refresh your memory, then Type Terms is perfect for you.
+
+**** Fontsquirrel :: Fonts free for commercial use
+:PROPERTIES:
+:guid: l3sjgJ1jommG
+:dateAdded: 1505230673710000
+:lastModified: 1562953876268000
+:iconuri: https://www.fontsquirrel.com/apple-touch-icon.png?v=2
+:uri: https://www.fontsquirrel.com/
+:END:
+
+**** Font Awesome :: Font Awesome Cheatsheet
+:PROPERTIES:
+:guid: jdeuKKouAixZ
+:dateAdded: 1488022914158000
+:lastModified: 1562953598559000
+:iconuri: null
+:uri: http://fontawesome.io/cheatsheet/
+:END:
+
+**** allfont.net :: Free Cyrillic Font Catalogue
+:PROPERTIES:
+:guid: Qjav3M4l7FQw
+:dateAdded: 1535202069055000
+:lastModified: 1562954140304000
+:iconuri: http://bg.allfont.net/ico/android-chrome-192x192.png
+:uri: http://bg.allfont.net/cyrillic/
+:END:
+указател на безплатни шрифтове, които можете да изтегляте
+
+**** Befonts :: Free Font Catalogue for Creatives
+:PROPERTIES:
+:guid: 2LP_UTfP5D6A
+:dateAdded: 1518592653200000
+:lastModified: 1562954029801000
+:iconuri: https://befonts.com/wp-content/uploads/2018/07/favi1.png
+:uri: https://befonts.com/
+:END:
+
+**** Feather :: Open Source Icons
+:PROPERTIES:
+:guid: qYUgJRZAXe5E
+:dateAdded: 1496440852849000
+:lastModified: 1562954163549000
+:iconuri: https://feathericons.com/favicon-16x16.png
+:uri: https://feathericons.com/
+:END:
+
+**** Weather Icons :: Open Source Icons
+:PROPERTIES:
+:guid: otzaXs0hgX47
+:dateAdded: 1488023082614000
+:lastModified: 1562954160467000
+:iconuri: null
+:uri: https://erikflowers.github.io/weather-icons/
+:END:
+
+**** codeface :: Typefaces for Source Code Beautification
+:PROPERTIES:
+:guid: UZtrxXReDuRv
+:dateAdded: 1491212390656000
+:lastModified: 1562954060898000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/chrissimpkins/codeface
+:END:
+
+**** Fontfabric :: Type Foundry Page
+:PROPERTIES:
+:guid: J0luj-ZHEoRF
+:dateAdded: 1483079227318000
+:lastModified: 1562953964470000
+:iconuri: https://www.fontfabric.com/wp-content/themes/ff-wp-templates/assets/images/favicon.ico
+:uri: http://www.fontfabric.com/
+:END:
+
+*** Library
+**** Zell Liew :: How to Choose and Pair Typefaces
+:PROPERTIES:
+:guid: nsCZfDiLaNOR
+:dateAdded: 1488650810986000
+:lastModified: 1562954191948000
+:iconuri: https://zellwk.com/images/favicons/apple-touch-icon.png
+:uri: https://zellwk.com/blog/typefaces/
+:END:
+
+** Vector Graphics
+**** Vector Logo Zone :: Uniform SVG Logo Icons
+:PROPERTIES:
+:guid: utzEFgEYhqot
+:dateAdded: 1546365243921000
+:lastModified: 1562954795157000
+:iconuri: null
+:uri: https://www.vectorlogo.zone/
+:END:
+
+**** Flaticon :: Vector Icons and Graphics
+:PROPERTIES:
+:guid: WStP879qYztE
+:dateAdded: 1523774140540000
+:lastModified: 1562954354238000
+:iconuri: https://www.flaticon.com/media/img/apple-icon-152x152-precomposed.png
+:uri: https://www.flaticon.com/
+:END:
+
+**** Noun Project :: Vector Icons and Graphics
+:PROPERTIES:
+:guid: vsmJwoLvilJ0
+:dateAdded: 1522751181570000
+:lastModified: 1562954357708000
+:iconuri: https://static.production.thenounproject.com/img/favicons/apple-touch-icon.7fb1143e988e.png
+:uri: https://thenounproject.com/
+:END:
+
+**** DryIcons.com :: Vector Icons and Graphics
+:PROPERTIES:
+:guid: 1aonGFTGuzDp
+:dateAdded: 1523774231630000
+:lastModified: 1562954378689000
+:iconuri: null
+:uri: http://dryicons.com/
+:END:
+
+**** freedesignfile :: Vector Icons and Graphics
+:PROPERTIES:
+:guid: kSQCtLPT1EPc
+:dateAdded: 1523773932600000
+:lastModified: 1562954828293000
+:iconuri: https://freedesignfile.com/upload/2018/07/cropped-fdfshow-192x192.jpg
+:uri: http://freedesignfile.com/category/free-vector/
+:END:
+
+**** Vecteezy :: Vector Icons and Graphics
+:PROPERTIES:
+:guid: fMemVgayI223
+:dateAdded: 1522750952670000
+:lastModified: 1562954867720000
+:iconuri: https://www.vecteezy.com/apple-touch-icon-precomposed.png
+:uri: https://www.vecteezy.com/
+:END:
+
+s
+** Pictures
+**** pixabay :: Free Pictures / Images
+:PROPERTIES:
+:guid: aDElgmbCfPku
+:dateAdded: 1524133597190000
+:lastModified: 1562954906344000
+:iconuri: https://pixabay.com/apple-touch-icon.png
+:uri: https://pixabay.com/
+:END:
+
+**** Unsplash :: Free Pictures / Images
+:PROPERTIES:
+:guid: oCzv0t1BCNFf
+:dateAdded: 1524132670170000
+:lastModified: 1562954920204000
+:iconuri: https://unsplash.com/apple-touch-icon.png
+:uri: https://unsplash.com/new
+:END:
+
+**** Pexels :: Free Stock Pictures / Images
+:PROPERTIES:
+:guid: 6jskcIsixrO4
+:dateAdded: 1511536243320000
+:lastModified: 1562954932586000
+:iconuri: https://www.pexels.com/assets/icons/pexels-icon-644533b609157fd990b1a6675626d63077ae1fb81e819c83f81dc2242877d413.png
+:uri: https://www.pexels.com/
+:END:
+Pexels provides high quality and completely free stock photos licensed under the Creative Commons Zero (CC0) license. All photos are nicely tagged, searchable and also easy to discover through our discover pages.
+
+**** Aminus3 :: Pictures / Images by Color
+:PROPERTIES:
+:guid: _l5b9Ti3XkFO
+:dateAdded: 1562954997981000
+:lastModified: 1562955065487000
+:iconuri: null
+:uri: https://www.aminus3.com/color/
+:END:
+Featured by Color:
+
+At Aminus3, we love color. Packed within every picture is a collection of pretty pixels varying in shades of red, green and blue. Every time an Aminus3 photographer uploads an image, our crack team of palette pondering robot scientists use our patent pending three pass scan technique to create a magical color scheme for all to enjoy.
+
+**** Lorem Picsum :: Picture / Image Placeholders
+:PROPERTIES:
+:guid: y3n4FhMlsQoN
+:dateAdded: 1524132783080000
+:lastModified: 1562955044434000
+:iconuri: https://picsum.photos/assets/images/favicon/favicon-16x16.png
+:uri: https://picsum.photos/
+:END:
+
+** UI/UX/Brand Design
+*** Resources
+**** MaterialUI :: Material design resources
+:PROPERTIES:
+:guid: _Qi1yJG8HVid
+:dateAdded: 1521495013730000
+:lastModified: 1562956398088000
+:iconuri: https://www.materialui.co/img/favicon.gif
+:uri: https://www.materialui.co/
+:END:
+Material Design Color, Flat Colors, Icons, Color Palette | Material UI
+
+*** Library
+**** Hongkiat :: 25 Examples of Brand Identity Design Done Right
+:PROPERTIES:
+:guid: _oDSpZnrjQem
+:dateAdded: 1475078634488000
+:lastModified: 1562956253702000
+:iconuri: https://assets.hongkiat.com/uploads/cropped-hkdc-avatar-192x192.png
+:uri: http://www.hongkiat.com/blog/identity-branding-design-part-2/
+:END:
+
+**** Laws of UX :: The Laws of User Interface Design
+:PROPERTIES:
+:guid: n8mOxLVr_sxa
+:dateAdded: 1516342998130000
+:lastModified: 1562956508641000
+:iconuri: https://lawsofux.com/apple-touch-icon.png
+:uri: https://lawsofux.com/#
+:END:
+
+**** Evil by Design :: Manipulative/ Dark Design Patterns
+:PROPERTIES:
+:guid: TLS_o5kUz1ep
+:dateAdded: 1527706961400000
+:lastModified: 1562956333493000
+:iconuri: https://evilbydesign.info/wp-content/themes/EBDtwentyelevenchild/favicon.ico
+:uri: https://evilbydesign.info/
+:END:
+
+**** Dark Patterns :: Manipulative / Dark Design Patterns
+:PROPERTIES:
+:guid: p1YvxbPJpg9H
+:dateAdded: 1562956299004000
+:lastModified: 1562956502775000
+:iconuri: https://uploads-ssl.webflow.com/5cbab95b7fcd70e14a18124a/5cc4ad2dd9da331e547fac80_webclip2.png
+:uri: https://www.darkpatterns.org/types-of-dark-pattern
+:END:
+
+**** material.io :: Material Design Guidelines
+:PROPERTIES:
+:guid: B5EdT2s45FsH
+:dateAdded: 1483122384280000
+:lastModified: 1562956527835000
+:iconuri: null
+:uri: https://material.io/guidelines/style/color.html#color-text-background-colors
+:END:
+
+**** Sebastien Gabriel :: Designer's guide to DPI
+:PROPERTIES:
+:guid: MgQ_7ySX_bAX
+:dateAdded: 1508268095110000
+:lastModified: 1562956562831000
+:iconuri: https://www.sebastien-gabriel.com/designers-guide-to-dpi/images/favicon.png
+:uri: http://sebastien-gabriel.com/designers-guide-to-dpi/
+:END:
+
+**** Nielsen Norman Group :: F-Shaped Pattern for Reading Web Content
+:PROPERTIES:
+:guid: gUyoT-q08Dff
+:dateAdded: 1499614867567000
+:lastModified: 1562956418711000
+:iconuri: https://media.nngroup.com/static/img/favicon.ico
+:uri: https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+:END:
+
+
+* GIS & Carto
+** Tool
+**** MapChart :: Online Map Creator Tool
+:PROPERTIES:
+:guid: 6ZRLfwMuAl-Z
+:dateAdded: 1519653636640000
+:lastModified: 1562962891898000
+:iconuri: null
+:uri: https://mapchart.net/world.html
+:END:
+
+**** Mapbox Studio :: Design Custom Maps
+:PROPERTIES:
+:guid: eCurkUwo2No4
+:dateAdded: 1521494079050000
+:lastModified: 1562962833411000
+:iconuri: null
+:uri: https://www.mapbox.com/mapbox-studio/
+:END:
+
+**** TileMill :: Desktop App for Creating Beautiful Web Maps
+:PROPERTIES:
+:guid: FSz5cqyJyrxb
+:dateAdded: 1505916927140000
+:lastModified: 1562962961571000
+:iconuri: null
+:uri: https://tilemill-project.github.io/tilemill/
+:END:
+TileMill is a desktop application for creating beautiful web maps. It was designed to easily integrate into existing GIS workflows to enhance design capabilities and flexibility.
+
+**** Terrain Sculptor :: FOSS for Beautiful Relief Shading
+:PROPERTIES:
+:guid: _XYoIBBKiN3m
+:dateAdded: 1471793703159000
+:lastModified: 1562962984946000
+:iconuri: null
+:uri: http://terraincartography.com/terrainsculptor/
+:END:
+Terrain Sculptor is a specialized application for the generalization of terrain models for relief shading. Terrain Sculptor removes irrelevant terrain detail and accentuates important terrain features.
+
+**** Spatial Reference :: Find Your References in any Number of Formats
+:PROPERTIES:
+:guid: DodkHlO9gQgC
+:dateAdded: 1514576847260000
+:lastModified: 1537328464062000
+:iconuri: null
+:uri: http://spatialreference.org/
+:END:
+Find your references in any number of formats!
+
+**** WhiteboxTools :: An Advanced Geospatial Data Analysis Platform
+:PROPERTIES:
+:guid: B7GlEbtUM1_v
+:dateAdded: 1559111248594000
+:lastModified: 1562963114299000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/jblindsay/whitebox-tools
+:END:
+
+**** GDAL :: Geospatial Data Abstraction Library
+:PROPERTIES:
+:guid: QX7KZ7jq2crP
+:dateAdded: 1501839039280000
+:lastModified: 1501839039280000
+:iconuri: null
+:uri: http://www.gdal.org/index.html
+:END:
+
+** Resources
+**** OpenLayers :: Public Domain Geospatial Data
+:PROPERTIES:
+:guid: rufuaRohoeAC
+:dateAdded: 1501838680920000
+:lastModified: 1562963487853000
+:iconuri: https://openlayers.org/assets/theme/img/favicon.ico
+:uri: http://openlayers.org/
+:END:
+A high-performance, feature-packed library for all your mapping needs.
+
+**** Natural Earth :: Public Domain Geospatial Data
+:PROPERTIES:
+:guid: 224Dzhqn2B6e
+:dateAdded: 1475168356216000
+:lastModified: 1562963476601000
+:iconuri: null
+:uri: http://www.naturalearthdata.com/downloads/
+:END:
+
+**** Equal Earth :: Tom Patterson's Physical Map (Public Domain)
+:PROPERTIES:
+:guid: HvomZXhG97g6
+:dateAdded: 1549283666304000
+:lastModified: 1562963602761000
+:iconuri: null
+:uri: http://equal-earth.com/physical/
+:END:
+
+**** USGS Global Data Explorer :: Geospatial Data Provider
+:PROPERTIES:
+:guid: VfYipuGxDS3N
+:dateAdded: 1501839419590000
+:lastModified: 1562963845418000
+:iconuri: https://gdex.cr.usgs.gov/gdex/images/favicon.ico
+:uri: https://gdex.cr.usgs.gov/gdex/
+:END:
+
+**** Inspire BG :: Geospatial Data for Bulgaria (Public Domain)
+:PROPERTIES:
+:guid: Ld5ycwwib5jr
+:dateAdded: 1475335418123000
+:lastModified: 1562963674629000
+:iconuri: null
+:uri: http://www.inspirebg.eu/?isInspire=True
+:END:
+
+**** Inspire BG :: ArcGIS Server Location
+:PROPERTIES:
+:guid: D09NkBFIU1G7
+:dateAdded: 1528179583130000
+:lastModified: 1537327119379000
+:iconuri: null
+:uri: http://inspire.cadastre.bg:6080/arcgis/rest/services
+:END:
+
+**** 212.122.184.17 :: ArcGIS Server Location
+:PROPERTIES:
+:guid: _VeFYU2YKApy
+:dateAdded: 1528180376560000
+:lastModified: 1537327229609000
+:iconuri: null
+:uri: http://212.122.184.17:6080/arcgis/rest/services
+:END:
+
+**** Leaflet Providers :: Base Maps for Leaflet Web Mapping
+:PROPERTIES:
+:guid: B2siKD0qKURd
+:dateAdded: 1556264971969000
+:lastModified: 1562963872809000
+:iconuri: null
+:uri: https://leaflet-extras.github.io/leaflet-providers/preview/
+:END:
+
+**** Stringmeteo :: Historical Climate Data for Bulgaria
+:PROPERTIES:
+:guid: P4caWmFMlNLK
+:dateAdded: 1483974481278000
+:lastModified: 1562963837881000
+:iconuri: null
+:uri: http://www.stringmeteo.com/synop/bg_climate.php
+:END:
+
+**** Weather Underground :: API Access to WU
+:PROPERTIES:
+:guid: oW18FTDnvtGF
+:dateAdded: 1486138134243000
+:lastModified: 1562963831660000
+:iconuri: https://icons.wxug.com/favicon.png
+:uri: https://www.wunderground.com/weather/api/d/pricing.html
+:END:
+Developer Plan: Monthly Pricing: $0 Calls Per Day:      500 Calls Per Minute: 10
+
+**** Microsoft :: Computer Generated Building Footprints for the United States
+:PROPERTIES:
+:guid: iiqctXAEmO94
+:dateAdded: 1537525195304000
+:lastModified: 1562963920114000
+:iconuri: https://github.com/fluidicon.png
+:uri: https://github.com/Microsoft/USBuildingFootprints
+:END:
+
+**** Ventusky :: Wind, Rain and Temperature Maps
+:PROPERTIES:
+:guid: munXGj-PIv45
+:dateAdded: 1516299623460000
+:lastModified: 1562963187987000
+:iconuri: https://www.ventusky.com/images/custom_icon.png
+:uri: https://www.ventusky.com/
+:END:
+
+**** Windy :: Wind Map & Weather Forecast
+:PROPERTIES:
+:guid: G7aYmm3GMLPp
+:dateAdded: 1519653760130000
+:lastModified: 1562963191333000
+:iconuri: https://www.windy.com/img/favicons/apple-touch-icon-180x180.png
+:uri: https://www.windy.com/?42.683,23.317,5
+:END:
+
+**** MeteoEarth :: Interactive Global Weather Visualization
+:PROPERTIES:
+:guid: Q60gltMLLL7r
+:dateAdded: 1519653843530000
+:lastModified: 1562963206376000
+:iconuri: http://www.meteoearth.com/img/favicon.ico
+:uri: http://www.meteoearth.com/
+:END:
+
+**** OneSoil :: Map of Fields and Crops
+:PROPERTIES:
+:guid: FHgA3TUVim4r
+:dateAdded: 1545103581378000
+:lastModified: 1562963201144000
+:iconuri: null
+:uri: https://map.onesoil.ai/
+:END:
+
+**** Flightradar24 :: Track Planes In Real-Time
+:PROPERTIES:
+:guid: cvSEfh_3q16G
+:dateAdded: 1521493922286000
+:lastModified: 1562963050986000
+:iconuri: null
+:uri: https://www.flightradar24.com/42.2,21.97/6
+:END:
+Flight Tracker | Flightradar24 | Track Planes In Real-Time
+
+**** MarineTraffic :: Real-Time Global Marine Traffic
+:PROPERTIES:
+:guid: pv1lyp9BlfUj
+:dateAdded: 1519654595920000
+:lastModified: 1562963182873000
+:iconuri: https://www.marinetraffic.com/img/ios/mt_152.png
+:uri: https://www.marinetraffic.com/
+:END:
+MarineTraffic: Global Ship Tracking Intelligence AIS Marine Traffic
+
+**** Human Terrain :: Visualizing Population
+:PROPERTIES:
+:guid: jn-NyFP9GH4C
+:dateAdded: 1546620031481000
+:lastModified: 1562963212961000
+:iconuri: null
+:uri: https://pudding.cool/2018/10/city_3d/?utm_medium=website&utm_source=archdaily.com
+:END:
+
+**** globalincidentmap :: Aviation Global Incidents and Accidents Map
+:PROPERTIES:
+:guid: 1rlMKadCdblB
+:dateAdded: 1519893150160000
+:lastModified: 1562963021283000
+:iconuri: null
+:uri: https://aviation.globalincidentmap.com/
+:END:
+
+**** SpaceBook :: A Real-Time Earth Satellites Viewer
+:PROPERTIES:
+:guid: LGLp_gjDjm5S
+:dateAdded: 1519653682540000
+:lastModified: 1562963169238000
+:iconuri: http://apps.agi.com/SatelliteViewer/images/favicon.ico
+:uri: http://apps.agi.com/SatelliteViewer/
+:END:
+
+**** The Internet Map :: A Map of the Internet
+:PROPERTIES:
+:guid: zxLmORIqXeUG
+:dateAdded: 1519654886630000
+:lastModified: 1562963270293000
+:iconuri: null
+:uri: https://internet-map.net/
+:END:
+
+** Library
+**** Northern Arizona University :: Map Design Concepts
+:PROPERTIES:
+:guid: 4WT23q6zw8jJ
+:dateAdded: 1475410954633000
+:lastModified: 1562964077261000
+:iconuri: null
+:uri: http://www.geog.nau.edu/courses/rh83/pl431/workbook/MapDesign.PDF
+:END:
+Article about map design concepts. Department of Geography, Planning & Recreation -- Northern Arizona University.
+
+**** Relief Shading :: In-Depth Information About Shaded Relief
+:PROPERTIES:
+:guid: CX0V7unot26X
+:dateAdded: 1501838288090000
+:lastModified: 1534631932073000
+:iconuri: null
+:uri: http://www.reliefshading.com/
+:END:
+This website is intended to give cartographers, map enthusiasts and students in-depth information about shaded relief.
+
+**** Rye Terrell :: Advanced Map Shading
+:PROPERTIES:
+:guid: QUudUpkEztXO
+:dateAdded: 1553485738770000
+:lastModified: 1562964011204000
+:iconuri: https://wwwtyro.net/media/favicon.png
+:uri: https://wwwtyro.net/2019/03/21/advanced-map-shading.html
+:END:
+
+**** Cartonerd :: Kenneth Field's Blog about Cartography
+:PROPERTIES:
+:guid: Z3EVbIT0H1j7
+:dateAdded: 1561989025154000
+:lastModified: 1562963975050000
+:iconuri: null
+:uri: https://cartonerd.blogspot.com/
+:END:
+
+**** GIS in Python :: Data Analysis in Python
+:PROPERTIES:
+:guid: GIKj03D0ln-D
+:dateAdded: 1521839304170000
+:lastModified: 1537327007576000
+:iconuri: null
+:uri: http://www.data-analysis-in-python.org/t_gis.html
+:END:
+
+**** OSMnx :: Framework for Analyzing Complex Street Networks
+:PROPERTIES:
+:guid: M59B1r4Izotu
+:dateAdded: 1531572075560000
+:lastModified: 1562964065329000
+:iconuri: null
+:uri: http://geoffboeing.com/publications/osmnx-complex-street-networks/
+:END:
+
+**** May Yuan :: Temporal GIS and Spatio-Temporal Modeling
+:PROPERTIES:
+:guid: JGTmwoI193iF
+:dateAdded: 1553775816191000
+:lastModified: 1562971996787000
+:iconuri: https://www.scribd.com/favicon.ico?v=4
+:uri: https://www.scribd.com/document/88412540/Spatio-Temporal-Model
+:END:
+
+s
+
+
+* Food
+** Baked
+**** Host The Toast :: Homemade Garlic Naan
+:PROPERTIES:
+:guid: DlTdpDscYP_6
+:dateAdded: 1561265503548000
+:lastModified: 1562970314313000
+:iconuri: https://hostthetoast.com/wp-content/uploads/2016/09/cropped-cropped-iconhtt-2-192x192.png
+:uri: https://hostthetoast.com/homemade-garlic-naan/
+:END:
+
+** Mains
+**** It Doesn't Taste Like Chicken :: Spinach & Ricotta Cannelloni
+:PROPERTIES:
+:guid: Lf5CPsYqKvyG
+:dateAdded: 1538371352769000
+:lastModified: 1562970297611000
+:iconuri: https://itdoesnttastelikechicken.com/wp-content/uploads/2017/04/cropped-favicon-192x192.png
+:uri: https://itdoesnttastelikechicken.com/vegan-spinach-ricotta-cannelloni/
+:END:
+
+**** /r/Veganrecipes :: Coconut Red Lentil Curry
+:PROPERTIES:
+:guid: IALPweIRfdWg
+:dateAdded: 1561645135547000
+:lastModified: 1562970241844000
+:iconuri: https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png
+:uri: https://www.reddit.com/r/veganrecipes/comments/c57if5/coconut_red_lentil_curry_full_recipe_in_comments/
+:END:
+
+**** Lazy Cat Kitchen :: Moussaka with Creamy Bechamel
+:PROPERTIES:
+:guid: qYmD8DYNbyDA
+:dateAdded: 1558502502290000
+:lastModified: 1562970290872000
+:iconuri: https://www.lazycatkitchen.com/wp-content/uploads/2017/09/apple-touch.png
+:uri: https://www.lazycatkitchen.com/vegan-moussaka-creamy-bechamel/
+:END:
+
+**** Yorkshire Vegan :: Sweet and Sour Tofu with Fried Rice 
+:PROPERTIES:
+:guid: 0hsyYv2uky7M
+:dateAdded: 1558357824979000
+:lastModified: 1562970330702000
+:iconuri: https://yorkshirevegan.co.uk/wp-content/uploads/2019/04/cropped-New-Project-2-192x192.png
+:uri: http://yorkshirevegan.co.uk/sweet-sour-tofu/
+:END:
+
+**** Lauren Caris Cooks :: The Best Vegan Aioli
+:PROPERTIES:
+:guid: vWJ2NYHLR7AY
+:dateAdded: 1526306740420000
+:lastModified: 1562970362076000
+:iconuri: http://laurencariscooks.com/1_lcc/wp-content/uploads/fbrfg/favicon-194x194.png?v=gAAp5kpN0d
+:uri: http://laurencariscooks.com/best-vegan-aioli/
+:END:
+
+**** Vegan Heaven :: Buffalo Cauliflower Wings 
+:PROPERTIES:
+:guid: o16ePCONYp2l
+:dateAdded: 1526306752230000
+:lastModified: 1562970381289000
+:iconuri: https://veganheaven.org/wp-content/themes/foodiepro/images/favicon.ico
+:uri: https://veganheaven.org/recipe/cauliflower-hot-wings-with-vegan-aioli/
+:END:
+
+** Desserts
+**** YouTube :: Fudgy Chocolate Brownies
+:PROPERTIES:
+:guid: qpk8Revb8qkK
+:dateAdded: 1558596155208000
+:lastModified: 1562970263147000
+:iconuri: https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
+:uri: https://www.youtube.com/watch?v=aRNf4TuL87I&app=desktop
+:END:
+
+**** Maplespice :: Double Chocolate Mousse Layer Cake
+:PROPERTIES:
+:guid: YdNhuM0Urh9w
+:dateAdded: 1517903131080000
+:lastModified: 1562970415189000
+:iconuri: http://i116.photobucket.com/albums/o10/bcdebbie/touch-icon-ipad-retina.png
+:uri: http://www.maplespice.com/2010/03/double-chocolate-mousse-layer-cake.html
+:END:
+
+**** Woman in Real Life :: Strawberry Banana Muffins
+:PROPERTIES:
+:guid: UK0GUhmfLn2S
+:dateAdded: 1544208038583000
+:lastModified: 1562970432878000
+:iconuri: null
+:uri: https://www.womaninreallife.com/2014/06/vegan-strawberry-banana-muffins.html
+:END:
+
 
 * Unprocessed                                                                   :noexport:
